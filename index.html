@@ -55,19 +55,19 @@
 <!-- NAV -->
 <nav>
   <div class="container">
-    <a class="nav-logo" href="#">
+    <a class="nav-logo" href="/">
       <picture>
         <source srcset="./assets/korax_square_black_transparent.webp" type="image/webp">
         <img src="./assets/korax_square_black_transparent.png" alt="Korax Systems logo" width="1536" height="1024" class="nav-logo-img" />
       </picture>
       <span class="nav-logo-brand">Korax</span> Systems
     </a>
-    <button class="nav-toggle" aria-label="Toggle menu">
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span>
       <span></span>
       <span></span>
     </button>
-    <ul class="nav-links">
+    <ul class="nav-links" aria-hidden="true">
     <li><a href="#services">Services</a></li>
     <li><a href="#how">Process</a></li>
     <li><a href="#why">Why Us</a></li>
@@ -83,16 +83,16 @@
   <div class="hero-inner">
     <div class="hero-label">Built for Small Business</div>
     <h1>Bespoke automation software for <em>small business.</em></h1>
-    <p class="hero-sub">Korax Systems builds bespoke desktop tools and automation software to help smaller businesses cut repetitive work and run more efficiently — without enterprise price tags.</p>
+    <p class="hero-sub">Korax Systems builds bespoke desktop tools and automation software to help smaller businesses cut repetitive work and run more efficiently, without enterprise price tags.</p>
     <div class="hero-actions">
       <a href="#contact" class="btn-primary">Start a Project</a>
       <a href="#services" class="btn-ghost">See What We Build</a>
     </div>
-    <div class="hero-stat-row">
-      <div class="hero-stat"><span>100%</span><p>Bespoke solutions</p></div>
-      <div class="hero-stat hero-stat--sm"><span>Small Business</span><p>Focused & priced fairly</p></div>
-      <div class="hero-stat"><span>Support</span><p>Ongoing support</p></div>
-    </div>
+    <dl class="hero-stat-row">
+      <div class="hero-stat"><dt><span>100%</span></dt><dd><p>Bespoke solutions</p></dd></div>
+      <div class="hero-stat hero-stat--sm"><dt><span>Small Business</span></dt><dd><p>Focused & priced fairly</p></dd></div>
+      <div class="hero-stat"><dt><span>Support</span></dt><dd><p>Ongoing support</p></dd></div>
+    </dl>
   </div>
   </div>
 </section>
@@ -103,7 +103,7 @@
   <div class="reveal">
     <div class="section-label">What We Do</div>
     <h2>Tools built around<br/>your workflows</h2>
-    <p class="section-sub">No bloated SaaS subscriptions. No generic platforms. Just focused software that does exactly what your business needs — and nothing it doesn't.</p>
+    <p class="section-sub">No bloated SaaS subscriptions. No generic platforms. Just focused software that does exactly what your business needs, and nothing it doesn't.</p>
   </div>
   <div class="services-grid reveal">
     <div class="service-card">
@@ -111,7 +111,7 @@
         <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
       </div>
       <h3>Desktop Automation Tools</h3>
-      <p>Custom Windows and Mac applications that replace manual, repetitive tasks. From data entry automation to file processing pipelines — built to run reliably every day.</p>
+      <p>Custom Windows applications that replace manual, repetitive tasks. From data entry automation to file processing pipelines, built to run reliably every day.</p>
       <div class="tag-row">
         <span class="tag">Windows</span>
         <span class="tag">Offline-ready</span>
@@ -122,7 +122,7 @@
         <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
       </div>
       <h3>Workflow & Task Automation</h3>
-      <p>Connect your existing systems, eliminate copy-paste work, and automate multi-step processes. Scheduling, reporting, notifications — handled automatically.</p>
+      <p>Connect your existing systems, eliminate copy-paste work, and automate multi-step processes. Scheduling, reporting, notifications, handled automatically.</p>
       <div class="tag-row">
         <span class="tag">Scheduling</span>
         <span class="tag">Reports</span>
@@ -151,7 +151,7 @@
   <div class="reveal">
     <div class="section-label">Our Process</div>
     <h2>Simple from start<br/>to finish</h2>
-    <p class="section-sub">We keep things lean and communicative. No jargon, no lengthy contracts — just a clear path from problem to solution.</p>
+    <p class="section-sub">We keep things lean and communicative. No jargon, no lengthy contracts, just a clear path from problem to solution.</p>
   </div>
   <div class="steps reveal">
     <div class="step">
@@ -167,7 +167,7 @@
     <div class="step">
       <div class="step-node" aria-hidden="true"></div>
       <h3>Build & Review</h3>
-      <p>We build in stages with regular check-ins so you can see progress and give feedback along the way — no surprises at delivery.</p>
+      <p>We build in stages with regular check-ins so you can see progress and give feedback along the way, no surprises at delivery.</p>
     </div>
     <div class="step">
       <div class="step-node" aria-hidden="true"></div>
@@ -200,12 +200,7 @@
     <div class="why-item">
       <div class="check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
       <h4>Built to Last</h4>
-      <p>Clean, documented code means your software can be maintained and extended long into the future.</p>
-    </div>
-    <div class="why-item">
-      <div class="check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-      <h4>Direct Communication</h4>
-      <p>You speak directly with the developer — no account managers, no ticket queues, no runaround.</p>
+      <p>Built to be reliable and maintainable, your software can be extended and updated as your business grows.</p>
     </div>
   </div>
   </div>
@@ -214,11 +209,11 @@
 <!-- SOCIAL PROOF -->
 <section class="proof section-divider-top">
   <div class="container">
-    <p class="section-label reveal">What clients say</p>
+    <h2 class="section-label reveal">What clients say</h2>
     <div class="proof-grid reveal">
       <blockquote class="proof-card">
-        <p>"We were copying data between three systems every morning. Korax built us a tool that does it in seconds — it paid for itself in the first month."</p>
-        <cite>— Operations Manager, UK logistics firm</cite>
+        <p>"We were copying data between three systems every morning. Korax built us a tool that does it in seconds, it paid for itself in the first month."</p>
+        <cite>Operations Manager, UK logistics firm</cite>
       </blockquote>
     </div>
   </div>
@@ -232,7 +227,7 @@
       <div class="section-label reveal">Get in Touch</div>
       <h2 class="reveal">Tell us about<br/>your problem</h2>
       <div class="contact-info reveal">
-        <p>Describe what's slowing your team down and we'll come back with thoughts on how we can help — no commitment required.</p>
+        <p>Describe what's slowing your team down and we'll come back with thoughts on how we can help, no commitment required.</p>
         <div class="info-row">
           <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
           <a href="mailto:enquires@koraxsystems.co.uk">enquires@koraxsystems.co.uk</a>
@@ -250,7 +245,7 @@
     <form class="contact-form reveal" id="contact-form" action="https://formspree.io/f/xdawepge" method="POST">
       <div class="form-row">
         <div>
-          <label for="fname">First Name</label>
+          <label for="fname">First Name <span class="sr-only">(required)</span></label>
           <input type="text" id="fname" name="fname" placeholder="" required />
         </div>
         <div>
@@ -260,12 +255,12 @@
       </div>
       <div class="form-row">
         <div>
-          <label for="email">Email</label>
+          <label for="email">Email <span class="sr-only">(required)</span></label>
           <input type="email" id="email" name="email" required />
         </div>
         <div>
-          <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" name="phone" required />
+          <label for="phone">Phone Number <span class="sr-only">(required)</span></label>
+          <input type="tel" id="phone" name="phone" placeholder="e.g. 07700 900123" pattern="[\d\s\+\-\(\)]{7,20}" title="Please enter a valid UK phone number" required />
         </div>
       </div>
       <div>
@@ -275,11 +270,11 @@
           <option value="Desktop Automation Tool">Desktop Automation Tool</option>
           <option value="Workflow / Task Automation">Workflow / Task Automation</option>
           <option value="Ongoing Support & Maintenance">Ongoing Support & Maintenance</option>
-          <option value="Not sure yet — let's talk">Not sure yet — let's talk</option>
+          <option value="Not sure yet, let's talk">Not sure yet, let's talk</option>
         </select>
       </div>
       <div>
-        <label for="message">Tell us what you need</label>
+        <label for="message">Tell us what you need <span class="sr-only">(required)</span></label>
         <textarea id="message" name="message" placeholder="Describe the task or process you'd like to automate…" required></textarea>
       </div>
       <button type="submit" class="submit-btn">Send Message →</button>
@@ -293,8 +288,8 @@
   <div class="container">
     <p class="section-label reveal">About</p>
     <h2 class="reveal">Built by someone who's been there.</h2>
-    <p class="section-sub reveal">Korax Systems is a one-person studio. No account managers, no offshore teams — just a developer who has spent years building tools that make daily work less painful for small businesses.</p>
-    <p class="section-sub reveal" style="margin-top: -2rem;">If you've ever lost hours to a spreadsheet that should be a button, or paid for a platform that does 80% of what you need and nothing more — that's the problem we solve.</p>
+    <p class="section-sub reveal">Korax Systems is built around one idea: that small businesses deserve software made for their actual problems, not enterprise leftovers. I've spent my career across different industries watching the same problem repeat: good businesses losing hours every week to tasks that should take seconds. That experience is what drives the work here.</p>
+    <p class="section-sub reveal">I'm not a career developer. I use modern tools to build practical automation software that removes the mundane and gives your team time back. If you've ever thought "there has to be a better way", that's exactly the problem I solve.</p>
   </div>
 </section>
 
@@ -305,7 +300,7 @@
       <source srcset="./assets/korax_circle_transparent_white.webp" type="image/webp">
       <img src="./assets/korax_circle_transparent_white.png" alt="Korax Systems logo" width="1024" height="1024" class="footer-logo" />
     </picture>
-    <p>2026 <strong>Korax Systems</strong>. Bespoke software for small business. All rights reserved.</p>
+    <p><span class="footer-year">2026</span> <strong>Korax Systems</strong>. Bespoke software for small business. All rights reserved.</p>
   </div>
 </footer>
 

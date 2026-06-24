@@ -1,17 +1,43 @@
   const navToggle = document.querySelector('.nav-toggle');
   const navLinks = document.querySelector('.nav-links');
 
+  function syncNavAria() {
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+    if (!isMobile) {
+      navLinks.setAttribute('aria-hidden', 'false');
+    } else if (!navLinks.classList.contains('open')) {
+      navLinks.setAttribute('aria-hidden', 'true');
+    }
+  }
+
   navToggle.addEventListener('click', () => {
     navToggle.classList.toggle('open');
     navLinks.classList.toggle('open');
+    const isOpen = navToggle.classList.contains('open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+    navLinks.setAttribute('aria-hidden', !isOpen);
   });
 
   navLinks.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
       navToggle.classList.remove('open');
       navLinks.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+      navLinks.setAttribute('aria-hidden', 'true');
     });
   });
+
+  document.addEventListener('click', (e) => {
+    if (navLinks.classList.contains('open') && !e.target.closest('nav')) {
+      navToggle.classList.remove('open');
+      navLinks.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+      navLinks.setAttribute('aria-hidden', 'true');
+    }
+  });
+
+  window.addEventListener('resize', syncNavAria);
+  syncNavAria();
 
   // Scroll reveal
   const observer = new IntersectionObserver((entries) => {
@@ -45,7 +71,7 @@
       });
       if (res.ok) {
         btn.textContent = '✓ Message Sent';
-        btn.style.background = '#16a34a';
+        btn.classList.add('submit-btn--success');
       } else {
         btn.disabled = false;
         btn.textContent = 'Send Message →';
@@ -55,3 +81,6 @@
       btn.textContent = 'Send Message →';
     }
   });
+
+  const yearEl = document.querySelector('.footer-year');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
