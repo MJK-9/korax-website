@@ -131,20 +131,6 @@
       .nav-toggle.open span:nth-child(2) { opacity: 0; }
       .nav-toggle.open span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
 
-      .hero-stat-row {
-        flex-wrap: wrap;
-        gap: 1.5rem;
-        justify-content: center;
-      }
-
-      .hero-stat {
-        min-width: 80px;
-      }
-
-      .hero-stat--sm span {
-        white-space: normal;
-        font-size: 1.1rem;
-      }
     }
 
     /* ── HERO ── */
@@ -241,45 +227,6 @@
     }
     .btn-ghost:hover { border-color: var(--ink-mid); background: #fff; }
     .btn-ghost:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
-
-    .hero-stat-row {
-      display: flex;
-      align-items: baseline;
-      gap: 2.5rem;
-      margin-top: 4rem;
-      padding-top: 2rem;
-      border-top: 1px dashed var(--rule);
-      position: relative;
-      opacity: 0;
-      animation: fadeUp 0.6s 0.65s forwards;
-    }
-    dl.hero-stat-row { margin: 0; }
-    .hero-stat dt,
-    .hero-stat dd { margin: 0; }
-    .hero-stat span {
-      display: block;
-      font-family: var(--mono);
-      font-size: 1.75rem;
-      font-weight: 600;
-      color: var(--ink);
-    }
-    .hero-stat--sm span {
-      font-size: 1.25rem;
-      white-space: nowrap;
-    }
-    .hero-stat {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    .hero-stat p {
-      font-size: 0.8rem;
-      color: var(--ink-light);
-      font-weight: 500;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-    }
 
     /* ── SECTION COMMON ── */
     section { padding: 100px 0; }
@@ -604,8 +551,7 @@
       .hero-label,
       h1,
       .hero-sub,
-      .hero-actions,
-      .hero-stat-row {
+      .hero-actions {
         animation: none;
         opacity: 1;
       }
@@ -622,40 +568,6 @@
     .about { background: var(--bg); }
     .about .section-sub + .section-sub { margin-top: -2rem; }
 
-    /* ── SOCIAL PROOF ── */
-    .proof { background: var(--bg-alt); border-bottom: 1px dashed var(--rule); }
-    .proof h2.section-label {
-      font-family: var(--mono);
-      font-size: 0.75rem;
-      font-weight: 600;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--accent);
-      margin-bottom: 0.75rem;
-      line-height: 1.6;
-    }
-    .proof-grid { display: grid; gap: 1.5rem; }
-    .proof-card {
-      background: var(--bg);
-      border: 1.5px solid var(--rule);
-      border-radius: 12px;
-      padding: 2rem 2.5rem;
-      max-width: 680px;
-    }
-    .proof-card p {
-      font-family: var(--serif);
-      font-size: 1.15rem;
-      line-height: 1.6;
-      color: var(--ink);
-      margin-bottom: 1rem;
-    }
-    .proof-card cite {
-      font-family: var(--mono);
-      font-size: 0.8rem;
-      color: var(--ink-light);
-      font-style: normal;
-    }
-
     .sr-only {
       position: absolute;
       width: 1px;
@@ -666,5 +578,3 @@
       white-space: nowrap;
       border: 0;
     }
-
-    .proof { display: none; }
