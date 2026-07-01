@@ -39,6 +39,8 @@
   window.addEventListener('resize', syncNavAria);
   syncNavAria();
 
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
   // Scroll reveal
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
@@ -46,10 +48,69 @@
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
   // Stagger children
-  document.querySelectorAll('.services-grid, .steps, .why-grid').forEach(grid => {
+  document.querySelectorAll('.services-grid, .steps, .why-grid, .pricing-grid').forEach(grid => {
     [...grid.children].forEach((child, i) => {
       child.style.transitionDelay = `${i * 0.1}s`;
     });
+  });
+
+  function closeFaqItem(item) {
+    const summary = item.querySelector('.faq-summary');
+    const answer = item.querySelector('.faq-answer');
+    item.classList.remove('active');
+    summary.setAttribute('aria-expanded', 'false');
+    if (reducedMotion) {
+      answer.hidden = true;
+      answer.style.maxHeight = '';
+      return;
+    }
+    answer.style.maxHeight = '0';
+    answer.addEventListener('transitionend', () => {
+      if (!item.classList.contains('active')) answer.hidden = true;
+    }, { once: true });
+  }
+
+  function openFaqItem(item) {
+    const summary = item.querySelector('.faq-summary');
+    const answer = item.querySelector('.faq-answer');
+    item.classList.add('active');
+    summary.setAttribute('aria-expanded', 'true');
+    answer.hidden = false;
+    answer.style.maxHeight = reducedMotion ? '' : `${answer.scrollHeight}px`;
+  }
+
+  function toggleFaqItem(item, allItems) {
+    const isActive = item.classList.contains('active');
+    allItems.forEach(closeFaqItem);
+    if (!isActive) openFaqItem(item);
+  }
+
+  const faqItems = document.querySelectorAll('.faq-item');
+  faqItems.forEach(item => {
+    item.querySelector('.faq-summary').addEventListener('click', () => {
+      toggleFaqItem(item, faqItems);
+    });
+  });
+
+  const pricingCards = document.querySelectorAll('.pricing-card');
+  const pricingOpenEnded = document.querySelector('.pricing-open-ended');
+
+  function highlightPricingTier(budgetValue) {
+    pricingCards.forEach(card => card.classList.remove('pricing-card--highlight'));
+    pricingOpenEnded?.classList.remove('pricing-open-ended--highlight');
+    if (!budgetValue || budgetValue === 'not-sure') return;
+    if (budgetValue === 'over-5000') {
+      pricingOpenEnded?.classList.add('pricing-open-ended--highlight');
+      return;
+    }
+    pricingCards.forEach(card => {
+      const tiers = (card.dataset.tier || '').split(' ');
+      if (tiers.includes(budgetValue)) card.classList.add('pricing-card--highlight');
+    });
+  }
+
+  document.querySelectorAll('input[name="budget"]').forEach(radio => {
+    radio.addEventListener('change', () => highlightPricingTier(radio.value));
   });
 
   // Formspree form submission

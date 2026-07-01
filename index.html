@@ -4,16 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bespoke Automation Software for Small Business | Korax Systems</title>
-  <meta name="description" content="Korax Systems builds bespoke desktop tools and automation software for UK small businesses. Fixed-price, no lock-in, built to last. Get in touch today." />
+  <meta name="description" content="Stop renting bots. Korax Systems builds bespoke automation software for UK small businesses — fixed-price, zero bloat, 100% IP ownership. Get in touch today." />
   <link rel="canonical" href="https://koraxsystems.co.uk/" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://koraxsystems.co.uk/" />
   <meta property="og:title" content="Bespoke Automation Software for Small Business | Korax Systems" />
-  <meta property="og:description" content="Korax Systems builds bespoke desktop tools and automation software for UK small businesses. Fixed-price, no lock-in, built to last." />
+  <meta property="og:description" content="Stop renting bots. Bespoke automation for UK small businesses. Fixed-price. Zero bloat. 100% yours forever." />
   <meta property="og:image" content="https://koraxsystems.co.uk/assets/korax_square_black_transparent.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Bespoke Automation Software for Small Business | Korax Systems" />
-  <meta name="twitter:description" content="Korax Systems builds bespoke desktop tools and automation software for UK small businesses. Fixed-price, no lock-in, built to last." />
+  <meta name="twitter:description" content="Stop renting bots. Bespoke automation for UK small businesses. Fixed-price. Zero bloat. 100% yours forever." />
   <meta name="twitter:image" content="https://koraxsystems.co.uk/assets/korax_square_black_transparent.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -91,8 +91,8 @@
   <div class="container">
   <div class="hero-inner">
     <div class="hero-label">Built for Small Business</div>
-    <h1>Bespoke automation software for <em>small business.</em></h1>
-    <p class="hero-sub">You're losing hours every week to tasks that should take seconds. Korax Systems builds bespoke desktop tools and automation software to cut that repetitive work — without enterprise price tags.</p>
+    <h1>Stop renting bots. Own the software that does your <em>heavy lifting.</em></h1>
+    <p class="hero-sub">Bespoke automation for UK small businesses. Fixed-price. Zero bloat. 100% yours forever.</p>
     <div class="hero-actions">
       <a href="#contact" class="btn-primary">Start a Project</a>
       <a href="#services" class="btn-ghost">See What We Build</a>
@@ -146,6 +146,41 @@
       </div>
     </div>
   </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing-section section-divider-top" id="pricing">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">Pricing</div>
+      <h2>Transparent Pricing — No Surprises</h2>
+      <p class="section-sub">We quote a single, fixed price upfront. No paid discovery traps. No scope-creep billing. No monthly retainers.</p>
+    </div>
+    <div class="pricing-grid reveal">
+      <article class="pricing-card" data-tier="under-2000">
+        <h3>The Quick Win</h3>
+        <p class="pricing-price">£1,500–£2,500</p>
+        <p class="pricing-meta"><strong>Timeline:</strong> Around 6–8 weeks</p>
+        <p class="pricing-meta"><strong>Best for:</strong> Single, high-volume manual task (data extraction, file processing, copy-paste automation)</p>
+        <p class="pricing-example"><strong>Example:</strong> A distributor spending 8 hours/week manually copying shipping data from emails into Excel. We built a desktop utility to parse emails and auto-populate. Result: 8 hours/week saved, zero errors, paid for itself in 2 weeks.</p>
+      </article>
+      <article class="pricing-card" data-tier="2000-4000 4000-5000">
+        <h3>The Workflow Bridge</h3>
+        <p class="pricing-price">£2,500–£4,000</p>
+        <p class="pricing-meta"><strong>Timeline:</strong> Around 10–14 weeks</p>
+        <p class="pricing-meta"><strong>Best for:</strong> Connecting two systems or automating a multi-step process (data entry + reporting, form processing + database update)</p>
+        <p class="pricing-example"><strong>Example:</strong> A trades company had three separate systems (quotes, invoicing, scheduling) that didn't talk to each other. We built a lightweight connector to sync data between them. Result: Eliminated manual re-entry, saved 12 hours/week, reduced errors by 95%.</p>
+      </article>
+    </div>
+    <div class="pricing-open-ended reveal" data-tier="over-5000">
+      <h3>Beyond £5,000</h3>
+      <p>For larger automation programmes, core system replacements, or multi-department workflows, we discuss your specific requirements on a free consultation call and provide a tailored proposal.</p>
+    </div>
+    <aside class="pricing-guarantee reveal" aria-label="The Korax Guarantee">
+      <h3>The Korax Guarantee</h3>
+      <p>Every project is quoted at a fixed price. No paid discovery traps. No scope-creep billing. No mandatory monthly retainers.</p>
+    </aside>
   </div>
 </section>
 
@@ -255,6 +290,39 @@
         </div>
       </div>
       <div>
+        <label for="manual-task">What manual task is driving you (or your team) crazy right now? <span class="sr-only">(required)</span></label>
+        <input type="text" id="manual-task" name="manual_task" placeholder="e.g., copying data from emails into Excel, processing invoices, etc." required />
+      </div>
+      <div>
+        <label for="hours-wasted">How many hours per week does your team waste on this? <span class="sr-only">(required)</span></label>
+        <input type="number" id="hours-wasted" name="hours_wasted" min="1" max="40" placeholder="e.g., 5" required />
+      </div>
+      <fieldset class="budget-fieldset">
+        <legend>Do you have a budget allocated for this project? <span class="sr-only">(required)</span></legend>
+        <div class="budget-options">
+          <label class="budget-option">
+            <input type="radio" name="budget" value="under-2000" required />
+            <span>Under £2,000 (Quick fixes)</span>
+          </label>
+          <label class="budget-option">
+            <input type="radio" name="budget" value="2000-4000" />
+            <span>£2,000–£4,000 (Multi-step workflows)</span>
+          </label>
+          <label class="budget-option">
+            <input type="radio" name="budget" value="4000-5000" />
+            <span>£4,000–£5,000 (Core utilities)</span>
+          </label>
+          <label class="budget-option">
+            <input type="radio" name="budget" value="over-5000" />
+            <span>More than £5,000 (Custom scope)</span>
+          </label>
+          <label class="budget-option">
+            <input type="radio" name="budget" value="not-sure" />
+            <span>Not sure yet</span>
+          </label>
+        </div>
+      </fieldset>
+      <div>
         <label for="service">I'm interested in…</label>
         <select id="service" name="service">
           <option value="">Select a service</option>
@@ -274,13 +342,88 @@
   </div>
 </section>
 
+<!-- FAQ -->
+<section class="faq-section section-divider-top" id="faq">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">FAQ</div>
+      <h2>Common Questions</h2>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button type="button" class="faq-summary" aria-expanded="false">How much does custom software cost?</button>
+        <div class="faq-answer" hidden>
+          <p>Our standard automation projects range from £1,500 to £5,000, quoted at a single fixed price upfront. For larger or more complex projects, we discuss your needs on a free consultation call and provide a tailored proposal. No surprises, no scope-creep.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="faq-summary" aria-expanded="false">Do I have to pay a monthly subscription?</button>
+        <div class="faq-answer" hidden>
+          <p>No. Unlike SaaS platforms or RPA agencies, you buy the software and you own it. There are no mandatory monthly fees to keep your software running.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="faq-summary" aria-expanded="false">Who owns the code?</button>
+        <div class="faq-answer" hidden>
+          <p>You do. Upon final payment, 100% of the Intellectual Property (IP) and source code is transferred to your business.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="faq-summary" aria-expanded="false">How long does a project take?</button>
+        <div class="faq-answer" hidden>
+          <p>Timelines depend on complexity. Simple automations typically take 6–8 weeks. Multi-step workflows usually take 10–14 weeks. We discuss specifics on your free consultation call and build in buffer time to ensure quality.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="faq-summary" aria-expanded="false">Can you integrate with our existing tools (Xero, Excel, etc.)?</button>
+        <div class="faq-answer" hidden>
+          <p>Yes. If your current software has an API or can export data, we can build a bridge to automate it.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="faq-summary" aria-expanded="false">What if it breaks or needs an update?</button>
+        <div class="faq-answer" hidden>
+          <p>Because we build standalone, offline-ready software, it rarely breaks. However, if you need new features or OS updates in the future, we offer simple, fixed-price update packages.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="faq-summary" aria-expanded="false">Do you offshore the coding?</button>
+        <div class="faq-answer" hidden>
+          <p>Never. Korax Systems is an independent, UK-based business. The person you speak to on the consultation is the developer writing your code.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="faq-summary" aria-expanded="false">Will this run on the cloud or on our own machines?</button>
+        <div class="faq-answer" hidden>
+          <p>We prefer building "built to last" local applications that run directly on your hardware. It's faster, more secure, and prevents you from being locked into expensive cloud-hosting fees.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="faq-summary" aria-expanded="false">We don't have a technical team. Is that a problem?</button>
+        <div class="faq-answer" hidden>
+          <p>Not at all. We build software specifically for non-technical teams. If you can click a button, you can use our automation.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="faq-summary" aria-expanded="false">Do we need a paid 'discovery phase' before getting a quote?</button>
+        <div class="faq-answer" hidden>
+          <p>No. We will discuss your problem on a free call, determine if we are the right fit, and provide a fixed-price proposal.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ABOUT -->
 <section class="about section-divider-top" id="about">
   <div class="container">
     <p class="section-label reveal">About</p>
-    <h2 class="reveal">Built by someone who's been there.</h2>
-    <p class="section-sub reveal">Korax Systems is built around one idea: that small businesses deserve software made for their actual problems, not enterprise leftovers. I've spent my career across different industries watching the same problem repeat: good businesses losing hours every week to tasks that should take seconds. That experience is what drives the work here.</p>
-    <p class="section-sub reveal">I build practical automation software using modern tools, removing the mundane and giving your team time back. If you've ever thought "there has to be a better way", that's exactly the problem I solve.</p>
+    <h2 class="reveal">Built around one principle.</h2>
+    <p class="section-sub reveal">Korax Systems was built around one principle: small businesses deserve software made for their actual problems, not enterprise leftovers.</p>
+    <p class="section-sub reveal">The founder has spent his career across different industries watching the same pattern repeat: good businesses losing hours every week to tasks that should take seconds. That experience is what drives the work here.</p>
+    <p class="section-sub reveal">Korax specialises in lean, focused automation: data processing, workflow integration, desktop utilities, and internal tools. No bloated features. No unnecessary complexity. Just software built to solve your specific bottleneck.</p>
+    <p class="section-sub reveal">When you work with Korax Systems, you get direct access to the architect building your solution. Project scope is kept focused and honest — if a problem falls outside Korax's wheelhouse, that's discussed upfront, not discovered mid-project.</p>
+    <p class="section-sub reveal">Korax maintains active support for all deployed systems. You own 100% of the code. If you need updates or enhancements within scope, Korax is here to help — but you're never locked in or dependent on the business to keep your software running.</p>
   </div>
 </section>
 
