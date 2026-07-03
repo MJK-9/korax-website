@@ -1,0 +1,48 @@
+---
+description: Enforces lean, clean, modern code standards on every file Cursor touches. Applies always. No exceptions.
+globs: ["**/*.html", "**/*.css", "**/*.js"]
+alwaysApply: true
+---
+
+# No Bloat Coding Standard — Korax Systems
+
+## Before writing anything
+Read the existing file you are about to change. Understand what is already there before editing anything. Do not duplicate logic that already exists. Do not introduce a pattern that contradicts the existing pattern in the same file.
+
+Before reading multiple source files to understand the codebase, query `graphify-out/graph.json` first. The knowledge graph answers structural questions faster and more accurately than reading files one by one. Run `graphify . --update` if the graph is more than one session old.
+
+## HTML rules
+- No inline styles — all values belong in css/styles.css as CSS custom properties.
+- No duplicate IDs — IDs must be unique per page, always.
+- No empty alt attributes on meaningful images — every image needs a descriptive, keyword-aware alt.
+- No deprecated elements or attributes (no `<center>`, no `align=`, no `border=` on tables).
+- Semantic elements only — use `<nav>`, `<section>`, `<article>`, `<footer>`, `<main>` correctly.
+- Do not add a second `<h1>` — exactly one per page.
+- Do not reintroduce a Cloudflare email-decode script block — Cloudflare is DNS-only for this domain and does not proxy or inject scripts.
+
+## CSS rules
+- Check css/styles.css for existing CSS custom properties before writing any colour, spacing, or typography value. Never hardcode hex values, px sizes, or font names directly in selectors — use variables.
+- No `!important` unless overriding a third-party injected style with no other option.
+- No nested selectors deeper than three levels.
+- Watch for specificity conflicts between class-based selectors (`.section`) and element-based selectors — they silently cancel each other out, especially on padding and margin for sections.
+- No vendor prefixes unless the spec requires them. Unused rules must be removed, not commented out.
+- prefers-reduced-motion must be respected for every transition or animation added.
+
+## JavaScript rules
+- No `var` — use `const` or `let` only.
+- No `console.log` in any code that will be pushed to main.
+- No functions longer than 30 lines — split into smaller named functions.
+- No nested if/else deeper than two levels — use early returns.
+- No magic numbers — name constants at the top of the file.
+- No DOM manipulation libraries — this is vanilla JS; use native APIs.
+- No new `<script>` tags added to index.html without an explicit confirmed decision.
+
+## General rules
+- Do not change behaviour — cleanup and refactor means changing how the code is written, not what it does.
+- Do not touch files outside the agreed scope of the current task.
+- One concern per function, one job per selector.
+- If a change requires more than one file to be updated, confirm scope with @project-manager before starting.
+
+## After every task
+- Update `handoff.md` in `.cursor/` — one entry, three fields: what was changed, what was not touched, what to do next.
+- Run `graphify . --update` to refresh the knowledge graph before ending the session.
