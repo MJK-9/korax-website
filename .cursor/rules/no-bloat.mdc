@@ -9,7 +9,7 @@ alwaysApply: true
 ## Before writing anything
 Read the existing file you are about to change. Understand what is already there before editing anything. Do not duplicate logic that already exists. Do not introduce a pattern that contradicts the existing pattern in the same file.
 
-Before reading multiple source files to understand the codebase, query `graphify-out/graph.json` first. The knowledge graph answers structural questions faster and more accurately than reading files one by one. Run `graphify . --update` if the graph is more than one session old.
+Before reading multiple source files to understand the codebase, query `graphify-out/graph.json` first. The knowledge graph answers structural questions faster and more accurately than reading files one by one. Run `graphify update .` if the graph is more than one session old.
 
 ## HTML rules
 - No inline styles — all values belong in css/styles.css as CSS custom properties.
@@ -45,4 +45,4 @@ Before reading multiple source files to understand the codebase, query `graphify
 
 ## After every task
 - Update `handoff.md` in `.cursor/` — one entry, three fields: what was changed, what was not touched, what to do next.
-- Run `graphify . --update` to refresh the knowledge graph before ending the session.
+- Run `graphify update .` to refresh the knowledge graph before ending the session.

@@ -115,7 +115,7 @@ No build step. No package manager. Plain static site.
 - **Local preview:** Open `index.html` directly in browser, or use any static file server (e.g. `python -m http.server 8080`)
 - **SEO audit:** Run Python scripts in `claude-seo/` per that directory's own instructions
 - **Validate HTML:** Use validator.w3.org or a local HTML validator on index.html
-- **Graphify:** `/graphify .` (first run) — `graphify . --update` (after any task that changes files)
+- **Graphify:** `/graphify .` (first run) — `graphify update .` (after any task that changes files)
 
 ## Progress Tracking
 PROGRESS.md in the project root is the persistent feature checklist. Cursor ticks items off as features are completed. Never truncated. Check it at the start of every session.
