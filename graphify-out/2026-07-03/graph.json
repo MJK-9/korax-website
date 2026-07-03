@@ -47,87 +47,17 @@
       "label": "observer",
       "file_type": "code",
       "source_file": "js/main.js",
-      "source_location": "L45",
+      "source_location": "L43",
       "_origin": "ast",
       "id": "js_main_observer",
       "community": 3,
       "norm_label": "observer"
     },
     {
-      "label": "closeFaqItem()",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L57",
-      "_origin": "ast",
-      "id": "js_main_closefaqitem",
-      "community": 3,
-      "norm_label": "closefaqitem()"
-    },
-    {
-      "label": "openFaqItem()",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L73",
-      "_origin": "ast",
-      "id": "js_main_openfaqitem",
-      "community": 3,
-      "norm_label": "openfaqitem()"
-    },
-    {
-      "label": "toggleFaqItem()",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L82",
-      "_origin": "ast",
-      "id": "js_main_togglefaqitem",
-      "community": 3,
-      "norm_label": "togglefaqitem()"
-    },
-    {
-      "label": "faqItems",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L88",
-      "_origin": "ast",
-      "id": "js_main_faqitems",
-      "community": 3,
-      "norm_label": "faqitems"
-    },
-    {
-      "label": "pricingCards",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L95",
-      "_origin": "ast",
-      "id": "js_main_pricingcards",
-      "community": 3,
-      "norm_label": "pricingcards"
-    },
-    {
-      "label": "pricingOpenEnded",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L96",
-      "_origin": "ast",
-      "id": "js_main_pricingopenended",
-      "community": 3,
-      "norm_label": "pricingopenended"
-    },
-    {
-      "label": "highlightPricingTier()",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L98",
-      "_origin": "ast",
-      "id": "js_main_highlightpricingtier",
-      "community": 3,
-      "norm_label": "highlightpricingtier()"
-    },
-    {
       "label": "yearEl",
       "file_type": "code",
       "source_file": "js/main.js",
-      "source_location": "L146",
+      "source_location": "L85",
       "_origin": "ast",
       "id": "js_main_yearel",
       "community": 3,
@@ -1234,36 +1164,6 @@
       "norm_label": "prioritized fix list"
     },
     {
-      "label": "learn.md",
-      "file_type": "document",
-      "source_file": "learn.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "learn",
-      "community": 12,
-      "norm_label": "learn.md"
-    },
-    {
-      "label": "Documentation Corrections \u2014 Korax Systems",
-      "file_type": "document",
-      "source_file": "learn.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "learn_documentation_corrections_korax_systems",
-      "community": 12,
-      "norm_label": "documentation corrections \u2014 korax systems"
-    },
-    {
-      "label": "[date] \u2014 [what was documented] vs [what was found]",
-      "file_type": "document",
-      "source_file": "learn.md",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "learn_date_what_was_documented_vs_what_was_found",
-      "community": 12,
-      "norm_label": "[date] \u2014 [what was documented] vs [what was found]"
-    },
-    {
       "label": "index.html Page",
       "file_type": "code",
       "source_file": "index.html",
@@ -1542,36 +1442,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "js/main.js",
-      "source_location": "L57",
-      "weight": 1.0,
-      "source": "js_main",
-      "target": "js_main_closefaqitem",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L88",
-      "weight": 1.0,
-      "source": "js_main",
-      "target": "js_main_faqitems",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L98",
-      "weight": 1.0,
-      "source": "js_main",
-      "target": "js_main_highlightpricingtier",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
       "source_location": "L2",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -1602,36 +1472,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "js/main.js",
-      "source_location": "L73",
-      "weight": 1.0,
-      "source": "js_main",
-      "target": "js_main_openfaqitem",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L95",
-      "weight": 1.0,
-      "source": "js_main",
-      "target": "js_main_pricingcards",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L96",
-      "weight": 1.0,
-      "source": "js_main",
-      "target": "js_main_pricingopenended",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -1642,32 +1482,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "js/main.js",
-      "source_location": "L82",
-      "weight": 1.0,
-      "source": "js_main",
-      "target": "js_main_togglefaqitem",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
       "source_location": "L85",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "js_main",
       "target": "js_main_yearel"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L85",
-      "weight": 1.0,
-      "source": "js_main_togglefaqitem",
-      "target": "js_main_openfaqitem",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1755,9 +1574,9 @@
       "source_file": "koraxsystems.co.uk-audit/ACTION-PLAN.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_action_plan",
-      "target": "koraxsystems_co_uk_audit_action_plan_action_plan_koraxsystems_co_uk"
+      "target": "koraxsystems_co_uk_audit_action_plan_action_plan_koraxsystems_co_uk",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1765,9 +1584,9 @@
       "source_file": "koraxsystems.co.uk-audit/ACTION-PLAN.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_action_plan_action_plan_koraxsystems_co_uk",
-      "target": "koraxsystems_co_uk_audit_action_plan_critical_fix_immediately_none_found"
+      "target": "koraxsystems_co_uk_audit_action_plan_critical_fix_immediately_none_found",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1775,9 +1594,9 @@
       "source_file": "koraxsystems.co.uk-audit/ACTION-PLAN.md",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_action_plan_action_plan_koraxsystems_co_uk",
-      "target": "koraxsystems_co_uk_audit_action_plan_high_fix_this_week"
+      "target": "koraxsystems_co_uk_audit_action_plan_high_fix_this_week",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1785,9 +1604,9 @@
       "source_file": "koraxsystems.co.uk-audit/ACTION-PLAN.md",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_action_plan_action_plan_koraxsystems_co_uk",
-      "target": "koraxsystems_co_uk_audit_action_plan_low_backlog"
+      "target": "koraxsystems_co_uk_audit_action_plan_low_backlog",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1795,9 +1614,9 @@
       "source_file": "koraxsystems.co.uk-audit/ACTION-PLAN.md",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_action_plan_action_plan_koraxsystems_co_uk",
-      "target": "koraxsystems_co_uk_audit_action_plan_medium_fix_within_1_month"
+      "target": "koraxsystems_co_uk_audit_action_plan_medium_fix_within_1_month",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1805,9 +1624,9 @@
       "source_file": "koraxsystems.co.uk-audit/ACTION-PLAN.md",
       "source_location": "L44",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_action_plan_action_plan_koraxsystems_co_uk",
-      "target": "koraxsystems_co_uk_audit_action_plan_roadmap_not_urgent_track_for_later"
+      "target": "koraxsystems_co_uk_audit_action_plan_roadmap_not_urgent_track_for_later",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1815,9 +1634,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_full_seo_audit_koraxsystems_co_uk"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_full_seo_audit_koraxsystems_co_uk",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1825,9 +1644,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L125",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_full_seo_audit_koraxsystems_co_uk",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_ai_search_readiness_geo_64_100"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_ai_search_readiness_geo_64_100",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1835,9 +1654,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L194",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_full_seo_audit_koraxsystems_co_uk",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_artifacts"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_artifacts",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1845,9 +1664,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L65",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_full_seo_audit_koraxsystems_co_uk",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_content_quality_e_e_a_t_58_100"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_content_quality_e_e_a_t_58_100",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1855,9 +1674,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_full_seo_audit_koraxsystems_co_uk",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_executive_summary"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_executive_summary",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1865,9 +1684,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L119",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_full_seo_audit_koraxsystems_co_uk",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_images_85_100_derived"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_images_85_100_derived",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1875,9 +1694,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L78",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_full_seo_audit_koraxsystems_co_uk",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_on_page_seo_75_100_derived"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_on_page_seo_75_100_derived",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1885,9 +1704,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L98",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_full_seo_audit_koraxsystems_co_uk",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_performance_lighthouse_lab_data_only_no_crux_field_data_low_traffic_no_google_api_key_configured"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_performance_lighthouse_lab_data_only_no_crux_field_data_low_traffic_no_google_api_key_configured",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1895,9 +1714,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L160",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_full_seo_audit_koraxsystems_co_uk",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_prioritized_action_plan"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_prioritized_action_plan",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1905,9 +1724,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L86",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_full_seo_audit_koraxsystems_co_uk",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_schema_structured_data_62_100"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_schema_structured_data_62_100",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1915,9 +1734,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_full_seo_audit_koraxsystems_co_uk",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_security_note"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_security_note",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1925,9 +1744,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L142",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_full_seo_audit_koraxsystems_co_uk",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_sxo_search_experience_optimization"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_sxo_search_experience_optimization",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1935,9 +1754,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L51",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_full_seo_audit_koraxsystems_co_uk",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_technical_seo_78_100"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_technical_seo_78_100",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1945,9 +1764,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_executive_summary",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_business_type_detected"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_business_type_detected",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1955,9 +1774,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_executive_summary",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_overall_seo_health_score_71_100"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_overall_seo_health_score_71_100",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1965,9 +1784,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_executive_summary",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_top_5_critical_high_issues"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_top_5_critical_high_issues",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1975,9 +1794,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_executive_summary",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_top_5_quick_wins_low_effort_real_impact"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_top_5_quick_wins_low_effort_real_impact",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1985,9 +1804,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L162",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_prioritized_action_plan",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_phase_1_critical_fixes_this_week"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_phase_1_critical_fixes_this_week",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1995,9 +1814,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L170",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_prioritized_action_plan",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_phase_2_high_impact_improvements_next_2_3_weeks"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_phase_2_high_impact_improvements_next_2_3_weeks",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2005,9 +1824,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L178",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_prioritized_action_plan",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_phase_3_content_authority_month_2"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_phase_3_content_authority_month_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2015,9 +1834,9 @@
       "source_file": "koraxsystems.co.uk-audit/FULL-AUDIT-REPORT.md",
       "source_location": "L185",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "koraxsystems_co_uk_audit_full_audit_report_prioritized_action_plan",
-      "target": "koraxsystems_co_uk_audit_full_audit_report_phase_4_monitoring_iteration_ongoing"
+      "target": "koraxsystems_co_uk_audit_full_audit_report_phase_4_monitoring_iteration_ongoing",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2025,9 +1844,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/content.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_content",
-      "target": "findings_content_content_quality_e_e_a_t_audit_koraxsystems_co_uk"
+      "target": "findings_content_content_quality_e_e_a_t_audit_koraxsystems_co_uk",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2035,9 +1854,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/content.md",
       "source_location": "L71",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_content_content_quality_e_e_a_t_audit_koraxsystems_co_uk",
-      "target": "findings_content_ai_citation_readiness_62_100"
+      "target": "findings_content_ai_citation_readiness_62_100",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2045,9 +1864,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/content.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_content_content_quality_e_e_a_t_audit_koraxsystems_co_uk",
-      "target": "findings_content_category_score_58_100"
+      "target": "findings_content_category_score_58_100",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2055,9 +1874,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/content.md",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_content_content_quality_e_e_a_t_audit_koraxsystems_co_uk",
-      "target": "findings_content_e_e_a_t_breakdown"
+      "target": "findings_content_e_e_a_t_breakdown",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2065,9 +1884,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/content.md",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_content_content_quality_e_e_a_t_audit_koraxsystems_co_uk",
-      "target": "findings_content_findings"
+      "target": "findings_content_findings",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2075,9 +1894,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/content.md",
       "source_location": "L67",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_content_content_quality_e_e_a_t_audit_koraxsystems_co_uk",
-      "target": "findings_content_keyword_topic_coverage"
+      "target": "findings_content_keyword_topic_coverage",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2085,9 +1904,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/content.md",
       "source_location": "L61",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_content_content_quality_e_e_a_t_audit_koraxsystems_co_uk",
-      "target": "findings_content_readability"
+      "target": "findings_content_readability",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2095,9 +1914,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/content.md",
       "source_location": "L87",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_content_content_quality_e_e_a_t_audit_koraxsystems_co_uk",
-      "target": "findings_content_summary_of_priority_actions"
+      "target": "findings_content_summary_of_priority_actions",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2105,9 +1924,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/content.md",
       "source_location": "L32",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_content_findings",
-      "target": "findings_content_high_no_case_studies_portfolio_or_outcome_evidence_anywhere"
+      "target": "findings_content_high_no_case_studies_portfolio_or_outcome_evidence_anywhere",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2115,9 +1934,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/content.md",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_content_findings",
-      "target": "findings_content_high_no_named_founder_or_about_the_person_signal"
+      "target": "findings_content_high_no_named_founder_or_about_the_person_signal",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2125,9 +1944,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/content.md",
       "source_location": "L48",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_content_findings",
-      "target": "findings_content_low_mac_windows_inconsistency_between_llms_txt_and_on_page_copy"
+      "target": "findings_content_low_mac_windows_inconsistency_between_llms_txt_and_on_page_copy",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2135,9 +1954,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/content.md",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_content_findings",
-      "target": "findings_content_low_no_dates_freshness_signals"
+      "target": "findings_content_low_no_dates_freshness_signals",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2145,9 +1964,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/content.md",
       "source_location": "L56",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_content_findings",
-      "target": "findings_content_low_positive_flag_not_a_defect_llms_txt_is_well_structured_and_accurate"
+      "target": "findings_content_low_positive_flag_not_a_defect_llms_txt_is_well_structured_and_accurate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2155,9 +1974,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/content.md",
       "source_location": "L44",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_content_findings",
-      "target": "findings_content_medium_no_faq_schema_or_faq_content_despite_clear_recurring_buyer_questions"
+      "target": "findings_content_medium_no_faq_schema_or_faq_content_despite_clear_recurring_buyer_questions",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2165,9 +1984,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/content.md",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_content_findings",
-      "target": "findings_content_medium_no_live_testimonial_or_third_party_social_proof"
+      "target": "findings_content_medium_no_live_testimonial_or_third_party_social_proof",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2175,9 +1994,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/content.md",
       "source_location": "L40",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_content_findings",
-      "target": "findings_content_medium_thin_content_relative_to_topical_scope_single_page_covering_3_services_about_process"
+      "target": "findings_content_medium_thin_content_relative_to_topical_scope_single_page_covering_3_services_about_process",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2185,9 +2004,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/geo.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_geo",
-      "target": "findings_geo_geo_generative_engine_optimization_audit_koraxsystems_co_uk"
+      "target": "findings_geo_geo_generative_engine_optimization_audit_koraxsystems_co_uk",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2195,9 +2014,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/geo.md",
       "source_location": "L22",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_geo_geo_generative_engine_optimization_audit_koraxsystems_co_uk",
-      "target": "findings_geo_1_ai_crawler_access_robots_txt"
+      "target": "findings_geo_1_ai_crawler_access_robots_txt",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2205,9 +2024,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/geo.md",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_geo_geo_generative_engine_optimization_audit_koraxsystems_co_uk",
-      "target": "findings_geo_2_llms_txt"
+      "target": "findings_geo_2_llms_txt",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2215,9 +2034,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/geo.md",
       "source_location": "L48",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_geo_geo_generative_engine_optimization_audit_koraxsystems_co_uk",
-      "target": "findings_geo_3_passage_level_citability"
+      "target": "findings_geo_3_passage_level_citability",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2225,9 +2044,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/geo.md",
       "source_location": "L64",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_geo_geo_generative_engine_optimization_audit_koraxsystems_co_uk",
-      "target": "findings_geo_4_authority_brand_signals"
+      "target": "findings_geo_4_authority_brand_signals",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2235,9 +2054,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/geo.md",
       "source_location": "L84",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_geo_geo_generative_engine_optimization_audit_koraxsystems_co_uk",
-      "target": "findings_geo_5_structural_readability_schema"
+      "target": "findings_geo_5_structural_readability_schema",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2245,9 +2064,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/geo.md",
       "source_location": "L94",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_geo_geo_generative_engine_optimization_audit_koraxsystems_co_uk",
-      "target": "findings_geo_6_technical_accessibility_for_ai_crawlers"
+      "target": "findings_geo_6_technical_accessibility_for_ai_crawlers",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2255,9 +2074,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/geo.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_geo_geo_generative_engine_optimization_audit_koraxsystems_co_uk",
-      "target": "findings_geo_geo_score_64_100"
+      "target": "findings_geo_geo_score_64_100",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2265,9 +2084,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/geo.md",
       "source_location": "L104",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_geo_geo_generative_engine_optimization_audit_koraxsystems_co_uk",
-      "target": "findings_geo_platform_specific_outlook"
+      "target": "findings_geo_platform_specific_outlook",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2275,9 +2094,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/geo.md",
       "source_location": "L117",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_geo_geo_generative_engine_optimization_audit_koraxsystems_co_uk",
-      "target": "findings_geo_top_5_highest_impact_changes_prioritized"
+      "target": "findings_geo_top_5_highest_impact_changes_prioritized",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2285,9 +2104,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/schema.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_schema",
-      "target": "findings_schema_schema_structured_data_audit_koraxsystems_co_uk"
+      "target": "findings_schema_schema_structured_data_audit_koraxsystems_co_uk",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2295,9 +2114,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/schema.md",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_schema_schema_structured_data_audit_koraxsystems_co_uk",
-      "target": "findings_schema_1_detection_results"
+      "target": "findings_schema_1_detection_results",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2305,9 +2124,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/schema.md",
       "source_location": "L23",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_schema_schema_structured_data_audit_koraxsystems_co_uk",
-      "target": "findings_schema_2_validation_results_pass_fail_per_block"
+      "target": "findings_schema_2_validation_results_pass_fail_per_block",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2315,9 +2134,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/schema.md",
       "source_location": "L66",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_schema_schema_structured_data_audit_koraxsystems_co_uk",
-      "target": "findings_schema_3_structural_issue_no_entity_linking_via_id"
+      "target": "findings_schema_3_structural_issue_no_entity_linking_via_id",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2325,9 +2144,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/schema.md",
       "source_location": "L72",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_schema_schema_structured_data_audit_koraxsystems_co_uk",
-      "target": "findings_schema_4_missing_schema_opportunities_recommended_json_ld"
+      "target": "findings_schema_4_missing_schema_opportunities_recommended_json_ld",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2335,9 +2154,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/schema.md",
       "source_location": "L166",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_schema_schema_structured_data_audit_koraxsystems_co_uk",
-      "target": "findings_schema_5_content_accuracy_cross_check_schema_vs_visible_page_copy"
+      "target": "findings_schema_5_content_accuracy_cross_check_schema_vs_visible_page_copy",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2345,9 +2164,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/schema.md",
       "source_location": "L179",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_schema_schema_structured_data_audit_koraxsystems_co_uk",
-      "target": "findings_schema_6_findings_summary_severity_tagged"
+      "target": "findings_schema_6_findings_summary_severity_tagged",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2355,9 +2174,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/schema.md",
       "source_location": "L195",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_schema_schema_structured_data_audit_koraxsystems_co_uk",
-      "target": "findings_schema_category_score_62_100"
+      "target": "findings_schema_category_score_62_100",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2365,9 +2184,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/schema.md",
       "source_location": "L25",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_schema_2_validation_results_pass_fail_per_block",
-      "target": "findings_schema_block_1_organization"
+      "target": "findings_schema_block_1_organization",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2375,9 +2194,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/schema.md",
       "source_location": "L39",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_schema_2_validation_results_pass_fail_per_block",
-      "target": "findings_schema_block_2_professionalservice"
+      "target": "findings_schema_block_2_professionalservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2385,9 +2204,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/schema.md",
       "source_location": "L56",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_schema_2_validation_results_pass_fail_per_block",
-      "target": "findings_schema_block_3_website"
+      "target": "findings_schema_block_3_website",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2395,9 +2214,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/schema.md",
       "source_location": "L74",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_schema_4_missing_schema_opportunities_recommended_json_ld",
-      "target": "findings_schema_a_replace_the_3_object_array_with_a_linked_corrected_version"
+      "target": "findings_schema_a_replace_the_3_object_array_with_a_linked_corrected_version",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2405,9 +2224,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/schema.md",
       "source_location": "L151",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_schema_4_missing_schema_opportunities_recommended_json_ld",
-      "target": "findings_schema_b_sameas_only_if_real_profiles_exist"
+      "target": "findings_schema_b_sameas_only_if_real_profiles_exist",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2415,9 +2234,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/schema.md",
       "source_location": "L158",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_schema_4_missing_schema_opportunities_recommended_json_ld",
-      "target": "findings_schema_c_faqpage_qapage_not_recommended"
+      "target": "findings_schema_c_faqpage_qapage_not_recommended",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2425,9 +2244,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/schema.md",
       "source_location": "L161",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_schema_4_missing_schema_opportunities_recommended_json_ld",
-      "target": "findings_schema_d_breadcrumblist_not_applicable"
+      "target": "findings_schema_d_breadcrumblist_not_applicable",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2435,9 +2254,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/sxo.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_sxo",
-      "target": "findings_sxo_sxo_findings_koraxsystems_co_uk"
+      "target": "findings_sxo_sxo_findings_koraxsystems_co_uk",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2445,9 +2264,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/sxo.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_sxo_sxo_findings_koraxsystems_co_uk",
-      "target": "findings_sxo_1_target_page_classification"
+      "target": "findings_sxo_1_target_page_classification",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2455,9 +2274,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/sxo.md",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_sxo_sxo_findings_koraxsystems_co_uk",
-      "target": "findings_sxo_2_serp_analysis_target_queries"
+      "target": "findings_sxo_2_serp_analysis_target_queries",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2465,9 +2284,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/sxo.md",
       "source_location": "L29",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_sxo_sxo_findings_koraxsystems_co_uk",
-      "target": "findings_sxo_3_page_type_mismatch_primary_finding"
+      "target": "findings_sxo_3_page_type_mismatch_primary_finding",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2475,9 +2294,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/sxo.md",
       "source_location": "L42",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_sxo_sxo_findings_koraxsystems_co_uk",
-      "target": "findings_sxo_4_user_stories_cite_serp_signals"
+      "target": "findings_sxo_4_user_stories_cite_serp_signals",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2485,9 +2304,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/sxo.md",
       "source_location": "L55",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_sxo_sxo_findings_koraxsystems_co_uk",
-      "target": "findings_sxo_5_persona_scoring"
+      "target": "findings_sxo_5_persona_scoring",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2495,9 +2314,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/sxo.md",
       "source_location": "L82",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_sxo_sxo_findings_koraxsystems_co_uk",
-      "target": "findings_sxo_6_limitations"
+      "target": "findings_sxo_6_limitations",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2505,9 +2324,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/sxo.md",
       "source_location": "L89",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_sxo_sxo_findings_koraxsystems_co_uk",
-      "target": "findings_sxo_cross_skill_recommendations"
+      "target": "findings_sxo_cross_skill_recommendations",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2515,9 +2334,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/sxo.md",
       "source_location": "L77",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_sxo_5_persona_scoring",
-      "target": "findings_sxo_priority_actions"
+      "target": "findings_sxo_priority_actions",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2525,9 +2344,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/sxo.md",
       "source_location": "L74",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_sxo_5_persona_scoring",
-      "target": "findings_sxo_systemic_issue"
+      "target": "findings_sxo_systemic_issue",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2535,9 +2354,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/sxo.md",
       "source_location": "L70",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_sxo_5_persona_scoring",
-      "target": "findings_sxo_weakest_persona_technical_ops_comparison_shopper_45_100"
+      "target": "findings_sxo_weakest_persona_technical_ops_comparison_shopper_45_100",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2545,9 +2364,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/technical.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_technical",
-      "target": "findings_technical_technical_seo_audit_koraxsystems_co_uk"
+      "target": "findings_technical_technical_seo_audit_koraxsystems_co_uk",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2555,9 +2374,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/technical.md",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_technical_technical_seo_audit_koraxsystems_co_uk",
-      "target": "findings_technical_1_crawlability_pass"
+      "target": "findings_technical_1_crawlability_pass",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2565,9 +2384,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/technical.md",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_technical_technical_seo_audit_koraxsystems_co_uk",
-      "target": "findings_technical_2_indexability_pass"
+      "target": "findings_technical_2_indexability_pass",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2575,9 +2394,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/technical.md",
       "source_location": "L25",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_technical_technical_seo_audit_koraxsystems_co_uk",
-      "target": "findings_technical_3_security_needs_work"
+      "target": "findings_technical_3_security_needs_work",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2585,9 +2404,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/technical.md",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_technical_technical_seo_audit_koraxsystems_co_uk",
-      "target": "findings_technical_4_url_structure_pass"
+      "target": "findings_technical_4_url_structure_pass",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2595,9 +2414,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/technical.md",
       "source_location": "L42",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_technical_technical_seo_audit_koraxsystems_co_uk",
-      "target": "findings_technical_5_mobile_friendliness_pass"
+      "target": "findings_technical_5_mobile_friendliness_pass",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2605,9 +2424,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/technical.md",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_technical_technical_seo_audit_koraxsystems_co_uk",
-      "target": "findings_technical_6_core_web_vitals_source_inspection_only_not_measured_likely_good_minor_flags"
+      "target": "findings_technical_6_core_web_vitals_source_inspection_only_not_measured_likely_good_minor_flags",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2615,9 +2434,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/technical.md",
       "source_location": "L60",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_technical_technical_seo_audit_koraxsystems_co_uk",
-      "target": "findings_technical_7_structured_data_pass_validated"
+      "target": "findings_technical_7_structured_data_pass_validated",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2625,9 +2444,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/technical.md",
       "source_location": "L73",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_technical_technical_seo_audit_koraxsystems_co_uk",
-      "target": "findings_technical_8_javascript_rendering_pass"
+      "target": "findings_technical_8_javascript_rendering_pass",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2635,9 +2454,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/technical.md",
       "source_location": "L79",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_technical_technical_seo_audit_koraxsystems_co_uk",
-      "target": "findings_technical_9_indexnow_protocol_not_implemented"
+      "target": "findings_technical_9_indexnow_protocol_not_implemented",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2645,9 +2464,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/technical.md",
       "source_location": "L83",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_technical_technical_seo_audit_koraxsystems_co_uk",
-      "target": "findings_technical_ai_crawler_llm_signals_pass_one_defect"
+      "target": "findings_technical_ai_crawler_llm_signals_pass_one_defect",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2655,9 +2474,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/technical.md",
       "source_location": "L106",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_technical_technical_seo_audit_koraxsystems_co_uk",
-      "target": "findings_technical_prioritized_fix_list"
+      "target": "findings_technical_prioritized_fix_list",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2665,9 +2484,9 @@
       "source_file": "koraxsystems.co.uk-audit/findings/technical.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_technical_technical_seo_audit_koraxsystems_co_uk",
-      "target": "findings_technical_score_78_100"
+      "target": "findings_technical_score_78_100",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2675,28 +2494,8 @@
       "source_file": "koraxsystems.co.uk-audit/findings/technical.md",
       "source_location": "L91",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "findings_technical_technical_seo_audit_koraxsystems_co_uk",
-      "target": "findings_technical_summary_table"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "learn.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "learn",
-      "target": "learn_documentation_corrections_korax_systems",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "learn.md",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "learn_documentation_corrections_korax_systems",
-      "target": "learn_date_what_was_documented_vs_what_was_found",
+      "target": "findings_technical_summary_table",
       "confidence_score": 1.0
     },
     {
@@ -3001,5 +2800,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ab90f203864c68cc56f945b020b1b5d2bf5facd2"
+  "built_at_commit": "da56caa966a757d873f173a6d5b854c556192377"
 }

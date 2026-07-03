@@ -610,9 +610,9 @@
     "semantic_hash": ""
   },
   "js/main.js": {
-    "mtime": 1782934504.3797102,
-    "ast_hash": "7490f50cd98b16e6ffd2cca2b46bc0d7",
-    "semantic_hash": ""
+    "mtime": 1782332252.378694,
+    "ast_hash": "b05ef059dc93ca514d9930ae5b876802",
+    "semantic_hash": "b05ef059dc93ca514d9930ae5b876802"
   },
   "koraxsystems-audit/audit-data.json": {
     "mtime": 1782328261.528993,
@@ -1835,8 +1835,8 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1782934488.7148817,
-    "ast_hash": "1abcccc0aa28db96ac2610079ee534d0",
+    "mtime": 1782928236.1543303,
+    "ast_hash": "9bb0dc95bc27e1b911d73f75a92c7a95",
     "semantic_hash": ""
   },
   "korax-website/llms.txt": {
@@ -2002,11 +2002,6 @@
   "koraxsystems.co.uk-audit/screenshots/koraxsystems_co_uk_tablet.png": {
     "mtime": 1782837634.182673,
     "ast_hash": "03cb58f4acf54a26760dddf923a181f0",
-    "semantic_hash": ""
-  },
-  "learn.md": {
-    "mtime": 1783108171.3620267,
-    "ast_hash": "f98a1fb119989fa982f751f8a46653d4",
     "semantic_hash": ""
   }
 }
