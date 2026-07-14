@@ -1835,8 +1835,8 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1784039848.1969624,
-    "ast_hash": "4ca122b8a011ea0a093b1bf54c8e3a2c",
+    "mtime": 1784042788.7777977,
+    "ast_hash": "1a0322b68d3326e7f12437c5e3351c68",
     "semantic_hash": ""
   },
   "korax-website/llms.txt": {
@@ -2012,6 +2012,76 @@
   "GEO-ANALYSIS.md": {
     "mtime": 1784036631.1222422,
     "ast_hash": "ceb9c53bdc54833b5c7adc8a188253b0",
+    "semantic_hash": ""
+  },
+  "Logo's/KORAX Round.png": {
+    "mtime": 1772902501.8813264,
+    "ast_hash": "881d75c28acac88d668a78fe692be156",
+    "semantic_hash": ""
+  },
+  "Logo's/KORAX Square.png": {
+    "mtime": 1772902002.3955626,
+    "ast_hash": "5bd4b961c9a6e9ca167f9be378b44a72",
+    "semantic_hash": ""
+  },
+  "Logo's/KORAX_Round_white_bg.png": {
+    "mtime": 1773170134.0643082,
+    "ast_hash": "9ac8fff4a3a32ae2915c96909337befb",
+    "semantic_hash": ""
+  },
+  "Logo's/KORAX_Square_white_bg.png": {
+    "mtime": 1773170134.9921076,
+    "ast_hash": "f76832d9e9b4492f333f072ef3f4ce19",
+    "semantic_hash": ""
+  },
+  "Logo's/Korax Sys Circile.png": {
+    "mtime": 1772972560.8945403,
+    "ast_hash": "14b3279fc21b94eec21bcc699c4a5ead",
+    "semantic_hash": ""
+  },
+  "Logo's/Korax Sys Square.png": {
+    "mtime": 1772972537.5801153,
+    "ast_hash": "4280d2248e2df7926151293138a9100f",
+    "semantic_hash": ""
+  },
+  "Logo's/korax_circle_black_transparent.png": {
+    "mtime": 1773169961.719952,
+    "ast_hash": "b2f3aa4dfe122854814563fa7fe06964",
+    "semantic_hash": ""
+  },
+  "Logo's/korax_circle_transparent.png": {
+    "mtime": 1773169643.8930979,
+    "ast_hash": "7a22d6c7b9f7c9c6090c7da088b08e3b",
+    "semantic_hash": ""
+  },
+  "Logo's/korax_square_black_transparent.png": {
+    "mtime": 1773169964.8172135,
+    "ast_hash": "544e9fa621de2c9d9991d4712d6ce391",
+    "semantic_hash": ""
+  },
+  "Logo's/korax_square_transparent.png": {
+    "mtime": 1773169651.1552696,
+    "ast_hash": "1be1e909e86884f9c481a04d546ba86a",
+    "semantic_hash": ""
+  },
+  "assets/apple-touch-icon.png": {
+    "mtime": 1784042768.89484,
+    "ast_hash": "e56dd23e7a9c91c65e7339d7b0cfbbe1",
+    "semantic_hash": ""
+  },
+  "assets/favicon-16.png": {
+    "mtime": 1784042768.8781903,
+    "ast_hash": "43e37860e1be76dd72545e2042e2c739",
+    "semantic_hash": ""
+  },
+  "assets/favicon-32.png": {
+    "mtime": 1784042768.8822176,
+    "ast_hash": "23ab8950a9c806d55e1996364ba4ac5b",
+    "semantic_hash": ""
+  },
+  "assets/korax_round_black.png": {
+    "mtime": 1784042768.861055,
+    "ast_hash": "4383276897b24a32e71106fd86b47c89",
     "semantic_hash": ""
   }
 }
