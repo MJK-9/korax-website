@@ -610,8 +610,8 @@
     "semantic_hash": ""
   },
   "js/main.js": {
-    "mtime": 1782934504.3797102,
-    "ast_hash": "7490f50cd98b16e6ffd2cca2b46bc0d7",
+    "mtime": 1783170354.5057182,
+    "ast_hash": "4795f8c38e2493560f6056af48d5ae7d",
     "semantic_hash": ""
   },
   "koraxsystems-audit/audit-data.json": {
@@ -670,8 +670,8 @@
     "semantic_hash": ""
   },
   "PROGRESS.md": {
-    "mtime": 1782928805.4259565,
-    "ast_hash": "346133592674687f781d71d1cf05960a",
+    "mtime": 1783111541.6670103,
+    "ast_hash": "98d0b555d090d3f892cc3905e8a47707",
     "semantic_hash": ""
   },
   "claude-seo/.github/FUNDING.yml": {
@@ -1835,8 +1835,8 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1782934488.7148817,
-    "ast_hash": "1abcccc0aa28db96ac2610079ee534d0",
+    "mtime": 1784034844.2536652,
+    "ast_hash": "b88dab3d950a65eb3e836b57b0d5fac3",
     "semantic_hash": ""
   },
   "korax-website/llms.txt": {
@@ -1860,8 +1860,8 @@
     "semantic_hash": ""
   },
   "llms.txt": {
-    "mtime": 1782928235.1312096,
-    "ast_hash": "6bb8c542f1902f9b5ea5add66d455416",
+    "mtime": 1784034844.9739351,
+    "ast_hash": "3fec54d611926f69c06c092a1781ec65",
     "semantic_hash": ""
   },
   "robots.txt": {

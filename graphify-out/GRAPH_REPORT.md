@@ -1,16 +1,16 @@
 # Graph Report - Korax website  (2026-07-14)
 
 ## Corpus Check
-- 14 files · ~91,136 words
+- 15 files · ~93,835 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 140 nodes · 138 edges · 13 communities (12 shown, 1 thin omitted)
+- 155 nodes · 152 edges · 13 communities (12 shown, 1 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `34019b78`
+- Built from commit: `d1ef71a8`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -30,15 +30,15 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `index.html Page` - 18 edges
-2. `Technical SEO Audit — koraxsystems.co.uk` - 14 edges
-3. `Full SEO Audit — koraxsystems.co.uk` - 13 edges
-4. `GEO (Generative Engine Optimization) Audit — koraxsystems.co.uk` - 10 edges
-5. `Findings` - 9 edges
-6. `Korax Systems — Build Progress` - 8 edges
-7. `Content Quality / E-E-A-T Audit — koraxsystems.co.uk` - 8 edges
-8. `Schema / Structured Data Audit — koraxsystems.co.uk` - 8 edges
-9. `SXO Findings — koraxsystems.co.uk` - 8 edges
-10. `Action Plan — koraxsystems.co.uk` - 6 edges
+2. `GEO (Generative Engine Optimization) Analysis — koraxsystems.co.uk` - 14 edges
+3. `Technical SEO Audit — koraxsystems.co.uk` - 14 edges
+4. `Full SEO Audit — koraxsystems.co.uk` - 13 edges
+5. `GEO (Generative Engine Optimization) Audit — koraxsystems.co.uk` - 10 edges
+6. `Findings` - 9 edges
+7. `Korax Systems — Build Progress` - 8 edges
+8. `Content Quality / E-E-A-T Audit — koraxsystems.co.uk` - 8 edges
+9. `Schema / Structured Data Audit — koraxsystems.co.uk` - 8 edges
+10. `SXO Findings — koraxsystems.co.uk` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `index.html Page` --references--> `main.js Client Script`  [EXTRACTED]
@@ -68,8 +68,8 @@ Cohesion: 0.33
 Nodes (4): navLinks, navToggle, observer, yearEl
 
 ### Community 4 - "Community 4"
-Cohesion: 0.12
-Nodes (16): AI Search Readiness (GEO) — 64/100, Artifacts, Business type detected, Content Quality (E-E-A-T) — 58/100, Executive Summary, Full SEO Audit — koraxsystems.co.uk, Images — 85/100 (derived), On-Page SEO — 75/100 (derived) (+8 more)
+Cohesion: 0.09
+Nodes (21): AI Search Readiness (GEO) — 64/100, Artifacts, Business type detected, Content Quality (E-E-A-T) — 58/100, Executive Summary, Full SEO Audit — koraxsystems.co.uk, Images — 85/100 (derived), On-Page SEO — 75/100 (derived) (+13 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.12
@@ -92,28 +92,28 @@ Cohesion: 0.29
 Nodes (6): Action Plan — koraxsystems.co.uk, Critical (fix immediately — none found), High (fix this week), Low (backlog), Medium (fix within 1 month), Roadmap (not urgent, track for later)
 
 ### Community 11 - "Community 11"
-Cohesion: 0.40
-Nodes (5): Phase 1: Critical Fixes (this week), Phase 2: High-Impact Improvements (next 2-3 weeks), Phase 3: Content & Authority (month 2), Phase 4: Monitoring & Iteration (ongoing), Prioritized Action Plan
+Cohesion: 0.13
+Nodes (14): AI Crawler Access Status (robots.txt), Authority & Brand Signals, Content Reformatting Suggestions, GEO (Generative Engine Optimization) Analysis — koraxsystems.co.uk, GEO Readiness Score: 57 / 100, llms.txt Status, Multi-Modal Content, Notes on Method / Confidence (+6 more)
 
 ## Knowledge Gaps
-- **99 isolated node(s):** `navToggle`, `navLinks`, `observer`, `yearEl`, `Foundation` (+94 more)
+- **112 isolated node(s):** `navToggle`, `navLinks`, `observer`, `yearEl`, `GEO Readiness Score: 57 / 100` (+107 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Full SEO Audit — koraxsystems.co.uk` connect `Community 4` to `Community 11`?**
-  _High betweenness centrality (0.020) - this node is a cross-community bridge._
 - **What connects `navToggle`, `navLinks`, `observer` to the rest of the system?**
-  _99 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _112 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
-  _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._
 - **Should `Community 5` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Community 7` be split into smaller, more focused modules?**
+  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
+- **Should `Community 11` be split into smaller, more focused modules?**
   _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._

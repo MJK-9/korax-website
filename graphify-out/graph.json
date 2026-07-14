@@ -64,6 +64,156 @@
       "norm_label": "yearel"
     },
     {
+      "label": "GEO-ANALYSIS.md",
+      "file_type": "document",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "geo_analysis",
+      "community": 11,
+      "norm_label": "geo-analysis.md"
+    },
+    {
+      "label": "GEO (Generative Engine Optimization) Analysis \u2014 koraxsystems.co.uk",
+      "file_type": "document",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
+      "community": 11,
+      "norm_label": "geo (generative engine optimization) analysis \u2014 koraxsystems.co.uk"
+    },
+    {
+      "label": "GEO Readiness Score: 57 / 100",
+      "file_type": "document",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "geo_analysis_geo_readiness_score_57_100",
+      "community": 11,
+      "norm_label": "geo readiness score: 57 / 100"
+    },
+    {
+      "label": "AI Crawler Access Status (robots.txt)",
+      "file_type": "document",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "geo_analysis_ai_crawler_access_status_robots_txt",
+      "community": 11,
+      "norm_label": "ai crawler access status (robots.txt)"
+    },
+    {
+      "label": "llms.txt Status",
+      "file_type": "document",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "geo_analysis_llms_txt_status",
+      "community": 11,
+      "norm_label": "llms.txt status"
+    },
+    {
+      "label": "Passage-Level Citability Analysis",
+      "file_type": "document",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "geo_analysis_passage_level_citability_analysis",
+      "community": 11,
+      "norm_label": "passage-level citability analysis"
+    },
+    {
+      "label": "Structural Readability",
+      "file_type": "document",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L89",
+      "_origin": "ast",
+      "id": "geo_analysis_structural_readability",
+      "community": 11,
+      "norm_label": "structural readability"
+    },
+    {
+      "label": "Multi-Modal Content",
+      "file_type": "document",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "geo_analysis_multi_modal_content",
+      "community": 11,
+      "norm_label": "multi-modal content"
+    },
+    {
+      "label": "Authority & Brand Signals",
+      "file_type": "document",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L106",
+      "_origin": "ast",
+      "id": "geo_analysis_authority_brand_signals",
+      "community": 11,
+      "norm_label": "authority & brand signals"
+    },
+    {
+      "label": "Technical Accessibility for AI Crawlers",
+      "file_type": "document",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L123",
+      "_origin": "ast",
+      "id": "geo_analysis_technical_accessibility_for_ai_crawlers",
+      "community": 11,
+      "norm_label": "technical accessibility for ai crawlers"
+    },
+    {
+      "label": "Platform-Specific Scores (estimated, qualitative)",
+      "file_type": "document",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L132",
+      "_origin": "ast",
+      "id": "geo_analysis_platform_specific_scores_estimated_qualitative",
+      "community": 11,
+      "norm_label": "platform-specific scores (estimated, qualitative)"
+    },
+    {
+      "label": "Top 5 Highest-Impact Changes",
+      "file_type": "document",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L145",
+      "_origin": "ast",
+      "id": "geo_analysis_top_5_highest_impact_changes",
+      "community": 11,
+      "norm_label": "top 5 highest-impact changes"
+    },
+    {
+      "label": "Schema Recommendations",
+      "file_type": "document",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L159",
+      "_origin": "ast",
+      "id": "geo_analysis_schema_recommendations",
+      "community": 11,
+      "norm_label": "schema recommendations"
+    },
+    {
+      "label": "Content Reformatting Suggestions",
+      "file_type": "document",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L168",
+      "_origin": "ast",
+      "id": "geo_analysis_content_reformatting_suggestions",
+      "community": 11,
+      "norm_label": "content reformatting suggestions"
+    },
+    {
+      "label": "Notes on Method / Confidence",
+      "file_type": "document",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L177",
+      "_origin": "ast",
+      "id": "geo_analysis_notes_on_method_confidence",
+      "community": 11,
+      "norm_label": "notes on method / confidence"
+    },
+    {
       "label": "PROGRESS.md",
       "file_type": "document",
       "source_file": "PROGRESS.md",
@@ -400,7 +550,7 @@
       "source_location": "L160",
       "_origin": "ast",
       "id": "koraxsystems_co_uk_audit_full_audit_report_prioritized_action_plan",
-      "community": 11,
+      "community": 4,
       "norm_label": "prioritized action plan"
     },
     {
@@ -410,7 +560,7 @@
       "source_location": "L162",
       "_origin": "ast",
       "id": "koraxsystems_co_uk_audit_full_audit_report_phase_1_critical_fixes_this_week",
-      "community": 11,
+      "community": 4,
       "norm_label": "phase 1: critical fixes (this week)"
     },
     {
@@ -420,7 +570,7 @@
       "source_location": "L170",
       "_origin": "ast",
       "id": "koraxsystems_co_uk_audit_full_audit_report_phase_2_high_impact_improvements_next_2_3_weeks",
-      "community": 11,
+      "community": 4,
       "norm_label": "phase 2: high-impact improvements (next 2-3 weeks)"
     },
     {
@@ -430,7 +580,7 @@
       "source_location": "L178",
       "_origin": "ast",
       "id": "koraxsystems_co_uk_audit_full_audit_report_phase_3_content_authority_month_2",
-      "community": 11,
+      "community": 4,
       "norm_label": "phase 3: content & authority (month 2)"
     },
     {
@@ -440,7 +590,7 @@
       "source_location": "L185",
       "_origin": "ast",
       "id": "koraxsystems_co_uk_audit_full_audit_report_phase_4_monitoring_iteration_ongoing",
-      "community": 11,
+      "community": 4,
       "norm_label": "phase 4: monitoring & iteration (ongoing)"
     },
     {
@@ -1517,6 +1667,146 @@
       "confidence_score": 1.0,
       "source": "js_main",
       "target": "js_main_yearel"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "geo_analysis",
+      "target": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
+      "target": "geo_analysis_ai_crawler_access_status_robots_txt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
+      "target": "geo_analysis_authority_brand_signals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L168",
+      "weight": 1.0,
+      "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
+      "target": "geo_analysis_content_reformatting_suggestions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
+      "target": "geo_analysis_geo_readiness_score_57_100",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
+      "target": "geo_analysis_llms_txt_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
+      "target": "geo_analysis_multi_modal_content",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L177",
+      "weight": 1.0,
+      "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
+      "target": "geo_analysis_notes_on_method_confidence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
+      "target": "geo_analysis_passage_level_citability_analysis",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
+      "target": "geo_analysis_platform_specific_scores_estimated_qualitative",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L159",
+      "weight": 1.0,
+      "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
+      "target": "geo_analysis_schema_recommendations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
+      "target": "geo_analysis_structural_readability",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
+      "target": "geo_analysis_technical_accessibility_for_ai_crawlers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEO-ANALYSIS.md",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
+      "target": "geo_analysis_top_5_highest_impact_changes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2850,5 +3140,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "34019b78ef84eed4bb1fb723af53c001a3a48e2a"
+  "built_at_commit": "d1ef71a89d02cb712e3533aaec5750a78e9da8d5"
 }

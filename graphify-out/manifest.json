@@ -1835,8 +1835,8 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1784034844.2536652,
-    "ast_hash": "b88dab3d950a65eb3e836b57b0d5fac3",
+    "mtime": 1784039848.1969624,
+    "ast_hash": "4ca122b8a011ea0a093b1bf54c8e3a2c",
     "semantic_hash": ""
   },
   "korax-website/llms.txt": {
@@ -2007,6 +2007,11 @@
   "learn.md": {
     "mtime": 1783108171.3620267,
     "ast_hash": "f98a1fb119989fa982f751f8a46653d4",
+    "semantic_hash": ""
+  },
+  "GEO-ANALYSIS.md": {
+    "mtime": 1784036631.1222422,
+    "ast_hash": "ceb9c53bdc54833b5c7adc8a188253b0",
     "semantic_hash": ""
   }
 }

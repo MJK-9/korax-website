@@ -47,87 +47,17 @@
       "label": "observer",
       "file_type": "code",
       "source_file": "js/main.js",
-      "source_location": "L45",
+      "source_location": "L43",
       "_origin": "ast",
       "id": "js_main_observer",
       "community": 3,
       "norm_label": "observer"
     },
     {
-      "label": "closeFaqItem()",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L57",
-      "_origin": "ast",
-      "id": "js_main_closefaqitem",
-      "community": 3,
-      "norm_label": "closefaqitem()"
-    },
-    {
-      "label": "openFaqItem()",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L73",
-      "_origin": "ast",
-      "id": "js_main_openfaqitem",
-      "community": 3,
-      "norm_label": "openfaqitem()"
-    },
-    {
-      "label": "toggleFaqItem()",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L82",
-      "_origin": "ast",
-      "id": "js_main_togglefaqitem",
-      "community": 3,
-      "norm_label": "togglefaqitem()"
-    },
-    {
-      "label": "faqItems",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L88",
-      "_origin": "ast",
-      "id": "js_main_faqitems",
-      "community": 3,
-      "norm_label": "faqitems"
-    },
-    {
-      "label": "pricingCards",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L95",
-      "_origin": "ast",
-      "id": "js_main_pricingcards",
-      "community": 3,
-      "norm_label": "pricingcards"
-    },
-    {
-      "label": "pricingOpenEnded",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L96",
-      "_origin": "ast",
-      "id": "js_main_pricingopenended",
-      "community": 3,
-      "norm_label": "pricingopenended"
-    },
-    {
-      "label": "highlightPricingTier()",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L98",
-      "_origin": "ast",
-      "id": "js_main_highlightpricingtier",
-      "community": 3,
-      "norm_label": "highlightpricingtier()"
-    },
-    {
       "label": "yearEl",
       "file_type": "code",
       "source_file": "js/main.js",
-      "source_location": "L146",
+      "source_location": "L85",
       "_origin": "ast",
       "id": "js_main_yearel",
       "community": 3,
@@ -1542,36 +1472,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "js/main.js",
-      "source_location": "L57",
-      "weight": 1.0,
-      "source": "js_main",
-      "target": "js_main_closefaqitem",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L88",
-      "weight": 1.0,
-      "source": "js_main",
-      "target": "js_main_faqitems",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L98",
-      "weight": 1.0,
-      "source": "js_main",
-      "target": "js_main_highlightpricingtier",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
       "source_location": "L2",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -1602,36 +1502,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "js/main.js",
-      "source_location": "L73",
-      "weight": 1.0,
-      "source": "js_main",
-      "target": "js_main_openfaqitem",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L95",
-      "weight": 1.0,
-      "source": "js_main",
-      "target": "js_main_pricingcards",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L96",
-      "weight": 1.0,
-      "source": "js_main",
-      "target": "js_main_pricingopenended",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -1642,32 +1512,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "js/main.js",
-      "source_location": "L82",
-      "weight": 1.0,
-      "source": "js_main",
-      "target": "js_main_togglefaqitem",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
       "source_location": "L85",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "js_main",
       "target": "js_main_yearel"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L85",
-      "weight": 1.0,
-      "source": "js_main_togglefaqitem",
-      "target": "js_main_openfaqitem",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2685,9 +2534,9 @@
       "source_file": "learn.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "learn",
-      "target": "learn_documentation_corrections_korax_systems",
-      "confidence_score": 1.0
+      "target": "learn_documentation_corrections_korax_systems"
     },
     {
       "relation": "contains",
@@ -2695,9 +2544,9 @@
       "source_file": "learn.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "learn_documentation_corrections_korax_systems",
-      "target": "learn_date_what_was_documented_vs_what_was_found",
-      "confidence_score": 1.0
+      "target": "learn_date_what_was_documented_vs_what_was_found"
     },
     {
       "relation": "references",
@@ -3001,5 +2850,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ab90f203864c68cc56f945b020b1b5d2bf5facd2"
+  "built_at_commit": "34019b78ef84eed4bb1fb723af53c001a3a48e2a"
 }

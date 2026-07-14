@@ -152,7 +152,7 @@
     }
     .hero-inner {
       position: relative;
-      max-width: 720px;
+      max-width: 680px;
     }
     .hero-label {
       display: inline-flex;
@@ -190,7 +190,7 @@
       font-size: 1.1rem;
       font-weight: 300;
       color: var(--ink-mid);
-      max-width: 560px;
+      max-width: 500px;
       margin-bottom: 2.5rem;
       opacity: 0;
       animation: fadeUp 0.6s 0.35s forwards;
@@ -268,30 +268,21 @@
     /* ── SECTION DIVIDER (pipeline motif) ── */
     .section-divider-top {
       position: relative;
-      --divider-width: min(100%, 1200px);
-      --divider-inset: calc((100% - var(--divider-width)) / 2);
-      --divider-edge: calc(var(--divider-inset) + var(--divider-width) * 0.05);
     }
     .section-divider-top::before {
       content: '';
       position: absolute;
       top: 0;
-      left: var(--divider-edge);
-      right: var(--divider-edge);
+      left: 0;
+      right: 0;
       border-top: 1px dashed var(--rule);
     }
-    /* Hero→services: light-on-light seam — border-top on 0-height pseudo vanishes; draw dashed line via background */
+    /* Hero→services: light-on-light seam — 1px box + z-index keeps dash visible */
     .services.section-divider-top::before {
       top: 0;
       height: 1px;
-      border-top: none;
-      background: repeating-linear-gradient(
-        90deg,
-        var(--rule) 0,
-        var(--rule) 6px,
-        transparent 6px,
-        transparent 12px
-      );
+      border-top: 1px dashed var(--rule);
+      background: none;
       z-index: 1;
     }
     /* ── SERVICES ── */
@@ -351,101 +342,6 @@
       background: var(--accent-soft);
       padding: 0.2rem 0.6rem;
       border-radius: 4px;
-    }
-
-    /* ── PRICING ── */
-    .pricing-section {
-      background: var(--bg);
-      border-bottom: 1px dashed var(--rule);
-    }
-    .pricing-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 1.5rem;
-      margin-bottom: 2.5rem;
-    }
-    @media (min-width: 1200px) {
-      .pricing-grid { grid-template-columns: repeat(2, 1fr); }
-    }
-    .pricing-card {
-      background: var(--bg-alt);
-      border: 1.5px solid var(--rule);
-      border-radius: 12px;
-      padding: 2rem;
-      transition: border-color 0.25s, box-shadow 0.25s, background 0.25s;
-    }
-    .pricing-card:hover {
-      border-color: var(--accent);
-      box-shadow: 0 8px 28px rgba(74, 93, 58, 0.08);
-    }
-    .pricing-card--highlight {
-      border-color: var(--accent);
-      background: var(--accent-soft);
-      box-shadow: 0 8px 28px rgba(74, 93, 58, 0.12);
-    }
-    .pricing-card h3 {
-      font-size: 1.35rem;
-      color: var(--ink);
-      margin-bottom: 0.75rem;
-    }
-    .pricing-price {
-      font-family: var(--serif);
-      font-size: 1.5rem;
-      font-weight: 600;
-      color: var(--accent);
-      margin-bottom: 1rem;
-    }
-    .pricing-meta,
-    .pricing-example {
-      font-size: 0.9rem;
-      color: var(--ink-mid);
-      line-height: 1.65;
-      margin-bottom: 0.75rem;
-    }
-    .pricing-example {
-      margin-bottom: 0;
-      padding-top: 0.75rem;
-      border-top: 1px dashed var(--rule);
-    }
-    .pricing-open-ended {
-      margin-bottom: 2rem;
-      padding: 1.75rem 2rem;
-      background: var(--bg-alt);
-      border: 1.5px solid var(--rule);
-      border-radius: 12px;
-      transition: border-color 0.25s, background 0.25s;
-    }
-    .pricing-open-ended--highlight {
-      border-color: var(--accent);
-      background: var(--accent-soft);
-    }
-    .pricing-open-ended h3 {
-      font-size: 1.2rem;
-      color: var(--ink);
-      margin-bottom: 0.5rem;
-    }
-    .pricing-open-ended p {
-      font-size: 0.95rem;
-      color: var(--ink-mid);
-      line-height: 1.65;
-      margin-bottom: 0;
-    }
-    .pricing-guarantee {
-      padding: 1.75rem 2rem;
-      background: var(--accent-soft);
-      border-left: 4px solid var(--accent);
-      border-radius: 0 12px 12px 0;
-    }
-    .pricing-guarantee h3 {
-      font-size: 1.15rem;
-      color: var(--ink);
-      margin-bottom: 0.5rem;
-    }
-    .pricing-guarantee p {
-      font-size: 0.95rem;
-      color: var(--ink-mid);
-      line-height: 1.65;
-      margin-bottom: 0;
     }
 
     /* ── HOW IT WORKS (pipeline connector) ── */
@@ -519,6 +415,64 @@
       margin-bottom: 1rem;
     }
     .check svg { width: 14px; height: 14px; stroke: var(--highlight); fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+
+    /* ── FAQ ── */
+    .faq { background: var(--bg); }
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      max-width: 720px;
+    }
+    .faq-item {
+      border: 1px solid var(--rule);
+      border-radius: 10px;
+      background: var(--bg-alt);
+      overflow: hidden;
+    }
+    .faq-item summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1.25rem 1.5rem;
+      min-height: 44px;
+      font-family: var(--serif);
+      font-weight: 600;
+      font-size: 1.05rem;
+      color: var(--ink);
+      cursor: pointer;
+      list-style: none;
+    }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::marker { content: ''; }
+    .faq-item summary::after {
+      content: '';
+      flex-shrink: 0;
+      width: 0.5rem;
+      height: 0.5rem;
+      border-right: 2px solid var(--accent);
+      border-bottom: 2px solid var(--accent);
+      transform: rotate(45deg);
+    }
+    .faq-item[open] summary::after {
+      transform: rotate(-135deg);
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .faq-item summary::after {
+        transition: transform 0.25s ease;
+      }
+    }
+    .faq-item summary:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: -3px;
+    }
+    .faq-item p {
+      padding: 0 1.5rem 1.25rem;
+      font-size: 0.95rem;
+      color: var(--ink-mid);
+      line-height: 1.7;
+    }
 
     /* ── CONTACT ── */
     .contact { background: var(--bg-alt); }
@@ -604,122 +558,6 @@
     }
     .info-row svg { width: 18px; height: 18px; stroke: var(--accent); fill: none; stroke-width: 1.8; flex-shrink: 0; stroke-linecap: round; stroke-linejoin: round; }
 
-    .budget-fieldset {
-      border: none;
-      padding: 0;
-      margin: 0;
-    }
-    .budget-fieldset legend {
-      font-family: var(--mono);
-      font-size: 0.8rem;
-      font-weight: 600;
-      color: var(--ink-mid);
-      text-transform: uppercase;
-      letter-spacing: 0.07em;
-      margin-bottom: 0.5rem;
-    }
-    .budget-options {
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-    .budget-option {
-      display: flex;
-      align-items: center;
-      gap: 0.65rem;
-      font-size: 0.9rem;
-      color: var(--ink);
-      cursor: pointer;
-      min-height: 44px;
-      padding: 0.35rem 0;
-    }
-    .budget-option input[type="radio"] {
-      width: 1.125rem;
-      height: 1.125rem;
-      flex-shrink: 0;
-      accent-color: var(--accent);
-      cursor: pointer;
-    }
-    .budget-option:focus-within span {
-      color: var(--accent);
-    }
-
-    /* ── FAQ ── */
-    .faq-section {
-      background: var(--bg);
-      border-bottom: 1px dashed var(--rule);
-    }
-    .faq-list {
-      display: flex;
-      flex-direction: column;
-      gap: 0;
-      border: 1.5px solid var(--rule);
-      border-radius: 12px;
-      overflow: hidden;
-      background: var(--bg-alt);
-    }
-    .faq-item {
-      border-bottom: 1px solid var(--rule);
-    }
-    .faq-item:last-child { border-bottom: none; }
-    .faq-summary {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 100%;
-      min-height: 44px;
-      padding: 1.1rem 1.25rem;
-      font-family: var(--serif);
-      font-size: 1.05rem;
-      font-weight: 600;
-      color: var(--ink);
-      text-align: left;
-      background: none;
-      border: none;
-      cursor: pointer;
-      transition: color 0.2s, background 0.2s;
-    }
-    .faq-summary::after {
-      content: '+';
-      font-family: var(--mono);
-      font-size: 1.25rem;
-      font-weight: 500;
-      color: var(--accent);
-      flex-shrink: 0;
-      margin-left: 1rem;
-      transition: transform 0.2s;
-    }
-    .faq-item.active .faq-summary::after {
-      content: '−';
-    }
-    .faq-summary:hover,
-    .faq-summary:focus-visible {
-      background: var(--accent-soft);
-      outline: none;
-    }
-    .faq-summary:focus-visible {
-      box-shadow: inset 0 0 0 3px rgba(74, 93, 58, 0.25);
-    }
-    .faq-answer {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.2s ease-in-out;
-    }
-    .faq-answer p {
-      padding: 0 1.25rem 1.25rem;
-      font-size: 0.95rem;
-      color: var(--ink-mid);
-      line-height: 1.7;
-      margin: 0;
-    }
-    @media (max-width: 500px) {
-      .faq-summary {
-        font-size: 0.95rem;
-        padding: 1rem;
-      }
-      .faq-answer p { padding: 0 1rem 1rem; }
-    }
-
     /* ── FOOTER ── */
     footer {
       background: var(--ink);
@@ -771,10 +609,6 @@
       .reveal.visible {
         opacity: 1;
         transform: none;
-        transition: none;
-      }
-
-      .faq-answer {
         transition: none;
       }
     }
