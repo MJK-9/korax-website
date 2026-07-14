@@ -1,17 +1,20 @@
 # Korax Systems
 
-> Bespoke automation software and desktop tools for UK small businesses.
-
-Korax Systems builds custom Windows and Mac desktop applications and workflow automation tools for small businesses. All software is fixed-price, owned outright by the client with no recurring licence fees, and built to be maintained and extended long-term.
+Korax Systems builds bespoke desktop automation tools and workflow automation software for UK small businesses. Projects are fixed-price with no lock-in — software is owned outright and built to last.
 
 ## Services
 
-- Desktop Automation Tools: Custom applications replacing manual, repetitive tasks. Offline-ready.
-- Workflow & Task Automation: Connects existing systems, eliminates copy-paste work, automates scheduling, reporting, and notifications.
-- Ongoing Support & Maintenance: Updates, bug fixes, and enhancements as the business evolves.
+- **Desktop Automation Tools** — Custom Windows applications that replace manual, repetitive tasks, from data entry automation to file processing pipelines.
+- **Workflow & Task Automation** — Connect existing systems, eliminate copy-paste work, and automate scheduling, reporting, and notifications.
+- **Ongoing Support & Maintenance** — Continued support, updates, and improvements as business processes evolve.
 
-## Contact
+## Target market
 
-- Email: enquiries@koraxsystems.co.uk
-- Website: https://koraxsystems.co.uk
-- Coverage: United Kingdom
+UK small businesses.
+
+## Key pages
+
+- [Services](https://koraxsystems.co.uk/#services)
+- [Process](https://koraxsystems.co.uk/#how)
+- [Why Us](https://koraxsystems.co.uk/#why)
+- [Contact](https://koraxsystems.co.uk/#contact)

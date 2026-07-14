@@ -1,16 +1,16 @@
-# Graph Report - Korax website  (2026-07-14)
+# Graph Report - Korax website  (2026-07-03)
 
 ## Corpus Check
-- 14 files · ~91,136 words
+- 14 files · ~92,025 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 140 nodes · 138 edges · 13 communities (12 shown, 1 thin omitted)
+- 147 nodes · 146 edges · 13 communities (12 shown, 1 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `34019b78`
+- Built from commit: `ab90f203`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -64,8 +64,8 @@ Cohesion: 0.12
 Nodes (16): AI Citation Readiness: 62/100, Category Score: 58 / 100, Content Quality / E-E-A-T Audit — koraxsystems.co.uk, E-E-A-T Breakdown, Findings, HIGH — No case studies, portfolio, or outcome evidence anywhere, HIGH — No named founder or "about the person" signal, Keyword / Topic Coverage (+8 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.33
-Nodes (4): navLinks, navToggle, observer, yearEl
+Cohesion: 0.17
+Nodes (9): faqItems, navLinks, navToggle, observer, openFaqItem(), pricingCards, pricingOpenEnded, toggleFaqItem() (+1 more)
 
 ### Community 4 - "Community 4"
 Cohesion: 0.12
@@ -96,7 +96,7 @@ Cohesion: 0.40
 Nodes (5): Phase 1: Critical Fixes (this week), Phase 2: High-Impact Improvements (next 2-3 weeks), Phase 3: Content & Authority (month 2), Phase 4: Monitoring & Iteration (ongoing), Prioritized Action Plan
 
 ## Knowledge Gaps
-- **99 isolated node(s):** `navToggle`, `navLinks`, `observer`, `yearEl`, `Foundation` (+94 more)
+- **102 isolated node(s):** `navToggle`, `navLinks`, `observer`, `faqItems`, `pricingCards` (+97 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -104,9 +104,9 @@ Nodes (5): Phase 1: Critical Fixes (this week), Phase 2: High-Impact Improvement
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Full SEO Audit — koraxsystems.co.uk` connect `Community 4` to `Community 11`?**
-  _High betweenness centrality (0.020) - this node is a cross-community bridge._
+  _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **What connects `navToggle`, `navLinks`, `observer` to the rest of the system?**
-  _99 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _102 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**

@@ -1,0 +1,187 @@
+{
+  "communities": {
+    "0": [
+      "cloudflare_emaildecode",
+      "googleanalytics_gtag",
+      "googlefonts_cdn",
+      "index_about",
+      "index_footer",
+      "index_google_fonts",
+      "index_gtag",
+      "index_page",
+      "korax_circle_transparent_white_png",
+      "run_website_script",
+      "schemaorg_professionalservice",
+      "schemaorg_website"
+    ],
+    "1": [
+      "progress",
+      "progress_accessibility_performance",
+      "progress_conversion",
+      "progress_core_site_existing_sections",
+      "progress_foundation",
+      "progress_future_content_not_yet_exists",
+      "progress_korax_systems_build_progress",
+      "progress_release_checks_before_every_push_to_main",
+      "progress_seo"
+    ],
+    "2": [
+      "index_contact",
+      "index_contact_form",
+      "index_formspree",
+      "index_hero",
+      "index_how",
+      "index_nav",
+      "index_services",
+      "index_why"
+    ],
+    "3": [
+      "formspree_endpoint",
+      "main_js",
+      "progress_checklist",
+      "robots_doc",
+      "sitemap_xml",
+      "styles_css"
+    ],
+    "4": [
+      "js_main",
+      "js_main_navlinks",
+      "js_main_navtoggle",
+      "js_main_observer",
+      "js_main_syncnavaria",
+      "js_main_yearel"
+    ],
+    "5": [
+      "index_organization_schema",
+      "index_professionalservice_schema",
+      "index_website_schema"
+    ],
+    "6": [
+      "korax_square_black_transparent_png",
+      "llms_doc",
+      "schemaorg_organization"
+    ]
+  },
+  "cohesion": {
+    "0": 0.16666666666666666,
+    "1": 0.2222222222222222,
+    "2": 0.2857142857142857,
+    "3": 0.3333333333333333,
+    "4": 0.3333333333333333,
+    "5": 0.6666666666666666,
+    "6": 0.6666666666666666
+  },
+  "gods": [
+    {
+      "id": "index_page",
+      "label": "Korax Systems Homepage",
+      "degree": 28
+    },
+    {
+      "id": "progress_korax_systems_build_progress",
+      "label": "Korax Systems \u2014 Build Progress",
+      "degree": 8
+    },
+    {
+      "id": "progress_checklist",
+      "label": "Build Progress Checklist",
+      "degree": 5
+    },
+    {
+      "id": "index_nav",
+      "label": "Site Navigation",
+      "degree": 5
+    },
+    {
+      "id": "index_contact",
+      "label": "Contact Section",
+      "degree": 4
+    },
+    {
+      "id": "schemaorg_organization",
+      "label": "JSON-LD Organization Schema Block",
+      "degree": 3
+    },
+    {
+      "id": "index_hero",
+      "label": "Hero Section",
+      "degree": 3
+    },
+    {
+      "id": "index_services",
+      "label": "Services Section",
+      "degree": 3
+    },
+    {
+      "id": "index_organization_schema",
+      "label": "Organization JSON-LD Schema",
+      "degree": 3
+    },
+    {
+      "id": "llms_doc",
+      "label": "LLMs.txt AI-Readable Site Description",
+      "degree": 2
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Korax Systems Homepage",
+      "target": "Korax Systems Square Logo \u2014 Black Geometric Raven on Transparent Background (PNG)",
+      "source_files": [
+        "index.html",
+        "assets/korax_square_black_transparent.png"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 image); connects across different repos/directories; bridges separate communities; peripheral node `Korax Systems Square Logo \u2014 Black Geometric Raven on Transparent Background (PNG)` unexpectedly reaches hub `Korax Systems Homepage`"
+    },
+    {
+      "source": "Korax Systems Homepage",
+      "target": "Site JavaScript",
+      "source_files": [
+        "index.html",
+        "js/main.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 code); connects across different repos/directories; bridges separate communities; peripheral node `Site JavaScript` unexpectedly reaches hub `Korax Systems Homepage`"
+    },
+    {
+      "source": "Korax Systems Homepage",
+      "target": "Korax Systems Circular Logo \u2014 White Outline on Transparent Background (PNG)",
+      "source_files": [
+        "index.html",
+        "assets/korax_circle_transparent_white.png"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 image); connects across different repos/directories; peripheral node `Korax Systems Circular Logo \u2014 White Outline on Transparent Background (PNG)` unexpectedly reaches hub `Korax Systems Homepage`"
+    },
+    {
+      "source": "LLMs.txt AI-Readable Site Description",
+      "target": "Korax Systems Homepage",
+      "source_files": [
+        "llms.txt",
+        "index.html"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities; peripheral node `LLMs.txt AI-Readable Site Description` unexpectedly reaches hub `Korax Systems Homepage`"
+    },
+    {
+      "source": "Robots.txt Crawler Directives",
+      "target": "Korax Systems Homepage",
+      "source_files": [
+        "robots.txt",
+        "index.html"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities; peripheral node `Robots.txt Crawler Directives` unexpectedly reaches hub `Korax Systems Homepage`"
+    }
+  ],
+  "tokens": {
+    "input": 26807,
+    "output": 8273
+  }
+}
