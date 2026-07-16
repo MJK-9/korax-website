@@ -1,3 +1,6 @@
+  const GA_MEASUREMENT_ID = 'G-VLLV9VKGM9';
+  let gaLoaded = false;
+
   const navToggle = document.querySelector('.nav-toggle');
   const navLinks = document.querySelector('.nav-links');
 
@@ -84,3 +87,19 @@
 
   const yearEl = document.querySelector('.footer-year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  function loadGoogleAnalytics() {
+    if (gaLoaded) return;
+    gaLoaded = true;
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+    document.head.appendChild(script);
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { window.dataLayer.push(arguments); }
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', GA_MEASUREMENT_ID);
+  }
+
+  window.addEventListener('load', loadGoogleAnalytics, { once: true });

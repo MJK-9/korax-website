@@ -15,9 +15,8 @@
   <meta name="twitter:title" content="Bespoke Automation Software for Small Business | Korax Systems" />
   <meta name="twitter:description" content="Korax Systems builds bespoke desktop tools and automation software for UK small businesses. Fixed-price, no lock-in, built to last." />
   <meta name="twitter:image" content="https://koraxsystems.co.uk/assets/korax_square_black_transparent.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="preload" href="./assets/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="./assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16.png">
@@ -166,15 +165,6 @@
   ]
 }
   </script>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VLLV9VKGM9"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-VLLV9VKGM9');
-  </script>
 </head>
 <body>
 
@@ -184,7 +174,7 @@
     <a class="nav-logo" href="/">
       <picture>
         <source srcset="./assets/korax_square_black_transparent.webp" type="image/webp">
-        <img src="./assets/korax_square_black_transparent.png" alt="Korax Systems logo" width="1536" height="1024" class="nav-logo-img" />
+        <img src="./assets/korax_square_black_transparent.png" alt="Korax Systems logo" width="1536" height="1024" class="nav-logo-img" fetchpriority="high" />
       </picture>
       <span class="nav-logo-brand">Korax</span> Systems
     </a>
