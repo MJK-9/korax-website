@@ -1,16 +1,16 @@
 # Graph Report - Korax website  (2026-07-19)
 
 ## Corpus Check
-- 15 files · ~171,613 words
+- 15 files · ~171,596 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 166 nodes · 171 edges · 13 communities (12 shown, 1 thin omitted)
+- 165 nodes · 170 edges · 13 communities (12 shown, 1 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e1b632ae`
+- Built from commit: `fcec453f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -64,7 +64,7 @@ Cohesion: 0.12
 Nodes (16): AI Citation Readiness: 62/100, Category Score: 58 / 100, Content Quality / E-E-A-T Audit — koraxsystems.co.uk, E-E-A-T Breakdown, Findings, HIGH — No case studies, portfolio, or outcome evidence anywhere, HIGH — No named founder or "about the person" signal, Keyword / Topic Coverage (+8 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.18
+Cohesion: 0.19
 Nodes (14): bindCookieBannerActions(), buildCookieBanner(), contactForm, dismissCookieBanner(), getStoredConsent(), handleConsentChoice(), initCookieConsent(), loadGoogleAnalytics() (+6 more)
 
 ### Community 4 - "Community 4"

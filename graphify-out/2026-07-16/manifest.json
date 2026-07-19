@@ -610,8 +610,8 @@
     "semantic_hash": ""
   },
   "js/main.js": {
-    "mtime": 1784452756.3441808,
-    "ast_hash": "e0e9279e6c81887ab8cec29b014286c5",
+    "mtime": 1783170354.5057182,
+    "ast_hash": "4795f8c38e2493560f6056af48d5ae7d",
     "semantic_hash": ""
   },
   "koraxsystems-audit/audit-data.json": {
@@ -1835,8 +1835,8 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1784469433.7242002,
-    "ast_hash": "906c3ee4b40c44689fe2ecf718a0d371",
+    "mtime": 1784042788.7777977,
+    "ast_hash": "1a0322b68d3326e7f12437c5e3351c68",
     "semantic_hash": ""
   },
   "korax-website/llms.txt": {
@@ -1860,8 +1860,8 @@
     "semantic_hash": ""
   },
   "llms.txt": {
-    "mtime": 1784469433.7242002,
-    "ast_hash": "b092e037146ad4547cc19e8adff64363",
+    "mtime": 1784034844.9739351,
+    "ast_hash": "3fec54d611926f69c06c092a1781ec65",
     "semantic_hash": ""
   },
   "robots.txt": {
@@ -2082,11 +2082,6 @@
   "assets/korax_round_black.png": {
     "mtime": 1784042768.861055,
     "ast_hash": "4383276897b24a32e71106fd86b47c89",
-    "semantic_hash": ""
-  },
-  "privacy-policy.html": {
-    "mtime": 1784465360.8576262,
-    "ast_hash": "211e73264838b727d22887f76fd06cf9",
     "semantic_hash": ""
   }
 }

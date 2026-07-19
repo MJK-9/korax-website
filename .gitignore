@@ -2,6 +2,7 @@ korax-website/
 koraxsystems-audit/
 .Skills/
 .claude/
+.claude/.agent-pending
 .cursor/
 PROGRESS.md
 claude.md

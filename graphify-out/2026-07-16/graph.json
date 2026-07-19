@@ -17,7 +17,7 @@
       "label": "navToggle",
       "file_type": "code",
       "source_file": "js/main.js",
-      "source_location": "L7",
+      "source_location": "L1",
       "_origin": "ast",
       "id": "js_main_navtoggle",
       "community": 3,
@@ -27,7 +27,7 @@
       "label": "navLinks",
       "file_type": "code",
       "source_file": "js/main.js",
-      "source_location": "L8",
+      "source_location": "L2",
       "_origin": "ast",
       "id": "js_main_navlinks",
       "community": 3,
@@ -37,7 +37,7 @@
       "label": "syncNavAria()",
       "file_type": "code",
       "source_file": "js/main.js",
-      "source_location": "L10",
+      "source_location": "L4",
       "_origin": "ast",
       "id": "js_main_syncnavaria",
       "community": 3,
@@ -47,131 +47,21 @@
       "label": "observer",
       "file_type": "code",
       "source_file": "js/main.js",
-      "source_location": "L50",
+      "source_location": "L43",
       "_origin": "ast",
       "id": "js_main_observer",
       "community": 3,
       "norm_label": "observer"
     },
     {
-      "label": "contactForm",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L61",
-      "_origin": "ast",
-      "id": "js_main_contactform",
-      "community": 3,
-      "norm_label": "contactform"
-    },
-    {
       "label": "yearEl",
       "file_type": "code",
       "source_file": "js/main.js",
-      "source_location": "L94",
+      "source_location": "L85",
       "_origin": "ast",
       "id": "js_main_yearel",
       "community": 3,
       "norm_label": "yearel"
-    },
-    {
-      "label": "getStoredConsent()",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L97",
-      "_origin": "ast",
-      "id": "js_main_getstoredconsent",
-      "community": 3,
-      "norm_label": "getstoredconsent()"
-    },
-    {
-      "label": "setStoredConsent()",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L105",
-      "_origin": "ast",
-      "id": "js_main_setstoredconsent",
-      "community": 3,
-      "norm_label": "setstoredconsent()"
-    },
-    {
-      "label": "trackLeadEvent()",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L114",
-      "_origin": "ast",
-      "id": "js_main_trackleadevent",
-      "community": 3,
-      "norm_label": "trackleadevent()"
-    },
-    {
-      "label": "loadGoogleAnalytics()",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L119",
-      "_origin": "ast",
-      "id": "js_main_loadgoogleanalytics",
-      "community": 3,
-      "norm_label": "loadgoogleanalytics()"
-    },
-    {
-      "label": "dismissCookieBanner()",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L138",
-      "_origin": "ast",
-      "id": "js_main_dismisscookiebanner",
-      "community": 3,
-      "norm_label": "dismisscookiebanner()"
-    },
-    {
-      "label": "handleConsentChoice()",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L143",
-      "_origin": "ast",
-      "id": "js_main_handleconsentchoice",
-      "community": 3,
-      "norm_label": "handleconsentchoice()"
-    },
-    {
-      "label": "bindCookieBannerActions()",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L149",
-      "_origin": "ast",
-      "id": "js_main_bindcookiebanneractions",
-      "community": 3,
-      "norm_label": "bindcookiebanneractions()"
-    },
-    {
-      "label": "buildCookieBanner()",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L156",
-      "_origin": "ast",
-      "id": "js_main_buildcookiebanner",
-      "community": 3,
-      "norm_label": "buildcookiebanner()"
-    },
-    {
-      "label": "showCookieBanner()",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L179",
-      "_origin": "ast",
-      "id": "js_main_showcookiebanner",
-      "community": 3,
-      "norm_label": "showcookiebanner()"
-    },
-    {
-      "label": "initCookieConsent()",
-      "file_type": "code",
-      "source_file": "js/main.js",
-      "source_location": "L187",
-      "_origin": "ast",
-      "id": "js_main_initcookieconsent",
-      "community": 3,
-      "norm_label": "initcookieconsent()"
     },
     {
       "label": "GEO-ANALYSIS.md",
@@ -1732,86 +1622,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "js/main.js",
-      "source_location": "L143",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "js_main",
-      "target": "js_main_bindcookiebanneractions"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L150",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "js_main",
-      "target": "js_main_buildcookiebanner"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L61",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "js_main",
-      "target": "js_main_contactform"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L132",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "js_main",
-      "target": "js_main_dismisscookiebanner"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L96",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "js_main",
-      "target": "js_main_getstoredconsent"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L137",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "js_main",
-      "target": "js_main_handleconsentchoice"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L181",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "js_main",
-      "target": "js_main_initcookieconsent"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L91",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "js_main",
-      "target": "js_main_loadgoogleanalytics"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
       "source_location": "L2",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -1842,41 +1652,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "js/main.js",
-      "source_location": "L104",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "js_main",
-      "target": "js_main_setstoredconsent"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L173",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "js_main",
-      "target": "js_main_showcookiebanner"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "js_main",
       "target": "js_main_syncnavaria"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L114",
-      "weight": 1.0,
-      "source": "js_main",
-      "target": "js_main_trackleadevent",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1889,102 +1669,14 @@
       "target": "js_main_yearel"
     },
     {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L182",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "js_main_initcookieconsent",
-      "target": "js_main_getstoredconsent"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L138",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "js_main_handleconsentchoice",
-      "target": "js_main_setstoredconsent"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L140",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "js_main_handleconsentchoice",
-      "target": "js_main_loadgoogleanalytics"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L184",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "js_main_initcookieconsent",
-      "target": "js_main_loadgoogleanalytics"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L139",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "js_main_handleconsentchoice",
-      "target": "js_main_dismisscookiebanner"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L169",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "js_main_buildcookiebanner",
-      "target": "js_main_bindcookiebanneractions"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L174",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "js_main_showcookiebanner",
-      "target": "js_main_buildcookiebanner"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "js/main.js",
-      "source_location": "L188",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "js_main_initcookieconsent",
-      "target": "js_main_showcookiebanner"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "GEO-ANALYSIS.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "geo_analysis",
-      "target": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk"
+      "target": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1992,9 +1684,9 @@
       "source_file": "GEO-ANALYSIS.md",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
-      "target": "geo_analysis_ai_crawler_access_status_robots_txt"
+      "target": "geo_analysis_ai_crawler_access_status_robots_txt",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2002,9 +1694,9 @@
       "source_file": "GEO-ANALYSIS.md",
       "source_location": "L106",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
-      "target": "geo_analysis_authority_brand_signals"
+      "target": "geo_analysis_authority_brand_signals",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2012,9 +1704,9 @@
       "source_file": "GEO-ANALYSIS.md",
       "source_location": "L168",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
-      "target": "geo_analysis_content_reformatting_suggestions"
+      "target": "geo_analysis_content_reformatting_suggestions",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2022,9 +1714,9 @@
       "source_file": "GEO-ANALYSIS.md",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
-      "target": "geo_analysis_geo_readiness_score_57_100"
+      "target": "geo_analysis_geo_readiness_score_57_100",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2032,9 +1724,9 @@
       "source_file": "GEO-ANALYSIS.md",
       "source_location": "L53",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
-      "target": "geo_analysis_llms_txt_status"
+      "target": "geo_analysis_llms_txt_status",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2042,9 +1734,9 @@
       "source_file": "GEO-ANALYSIS.md",
       "source_location": "L98",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
-      "target": "geo_analysis_multi_modal_content"
+      "target": "geo_analysis_multi_modal_content",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2052,9 +1744,9 @@
       "source_file": "GEO-ANALYSIS.md",
       "source_location": "L177",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
-      "target": "geo_analysis_notes_on_method_confidence"
+      "target": "geo_analysis_notes_on_method_confidence",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2062,9 +1754,9 @@
       "source_file": "GEO-ANALYSIS.md",
       "source_location": "L70",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
-      "target": "geo_analysis_passage_level_citability_analysis"
+      "target": "geo_analysis_passage_level_citability_analysis",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2072,9 +1764,9 @@
       "source_file": "GEO-ANALYSIS.md",
       "source_location": "L132",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
-      "target": "geo_analysis_platform_specific_scores_estimated_qualitative"
+      "target": "geo_analysis_platform_specific_scores_estimated_qualitative",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2082,9 +1774,9 @@
       "source_file": "GEO-ANALYSIS.md",
       "source_location": "L159",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
-      "target": "geo_analysis_schema_recommendations"
+      "target": "geo_analysis_schema_recommendations",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2092,9 +1784,9 @@
       "source_file": "GEO-ANALYSIS.md",
       "source_location": "L89",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
-      "target": "geo_analysis_structural_readability"
+      "target": "geo_analysis_structural_readability",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2102,9 +1794,9 @@
       "source_file": "GEO-ANALYSIS.md",
       "source_location": "L123",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
-      "target": "geo_analysis_technical_accessibility_for_ai_crawlers"
+      "target": "geo_analysis_technical_accessibility_for_ai_crawlers",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2112,9 +1804,9 @@
       "source_file": "GEO-ANALYSIS.md",
       "source_location": "L145",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "geo_analysis_geo_generative_engine_optimization_analysis_koraxsystems_co_uk",
-      "target": "geo_analysis_top_5_highest_impact_changes"
+      "target": "geo_analysis_top_5_highest_impact_changes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3448,5 +3140,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "e1b632aedd1c9830ae9382a72bceda65d79909dc"
+  "built_at_commit": "d1ef71a89d02cb712e3533aaec5750a78e9da8d5"
 }
