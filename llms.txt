@@ -1,20 +1,19 @@
 # Korax Systems
 
-Korax Systems builds bespoke desktop automation tools and workflow automation software for UK small businesses. Projects are fixed-price with no lock-in — software is owned outright and built to last.
+> Bespoke desktop automation tools and workflow automation software for UK small businesses. Projects are fixed-price with no lock-in — software is owned outright and built to last.
 
 ## Services
 
-- **Desktop Automation Tools** — Custom Windows applications that replace manual, repetitive tasks, from data entry automation to file processing pipelines.
-- **Workflow & Task Automation** — Connect existing systems, eliminate copy-paste work, and automate scheduling, reporting, and notifications.
-- **Ongoing Support & Maintenance** — Continued support, updates, and improvements as business processes evolve.
+- [Desktop Automation Tools](https://koraxsystems.co.uk/#services) — Custom Windows applications that replace manual, repetitive tasks, from data entry automation to file processing pipelines.
+- [Workflow & Task Automation](https://koraxsystems.co.uk/#services) — Connect existing systems, eliminate copy-paste work, and automate scheduling, reporting, and notifications.
+- [Ongoing Support & Maintenance](https://koraxsystems.co.uk/#services) — Continued support, updates, and improvements as business processes evolve.
 
-## Target market
+## Business Philosophy & Target Market
 
-UK small businesses.
+- **Target Market:** UK small businesses.
+- [Why Choose Us](https://koraxsystems.co.uk/#why) — We offer fixed-price projects with no lock-in. You own the custom-built software outright.
+- [Our Process](https://koraxsystems.co.uk/#how) — Lean, straightforward milestone-based development from initial brief to handover.
 
-## Key pages
+## Contact
 
-- [Services](https://koraxsystems.co.uk/#services)
-- [Process](https://koraxsystems.co.uk/#how)
-- [Why Us](https://koraxsystems.co.uk/#why)
-- [Contact](https://koraxsystems.co.uk/#contact)
+- [Get in Touch](https://koraxsystems.co.uk/#contact) — Contact Korax Systems for project inquiries or consultations.

@@ -79,7 +79,7 @@
     }
 
     /* ── NAV ── */
-    nav {
+    body > nav {
       position: fixed;
       top: 0; left: 0; right: 0;
       z-index: 100;
@@ -89,7 +89,7 @@
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--rule);
     }
-    nav .container {
+    body > nav .container {
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -624,6 +624,303 @@
       opacity: 0.6;
     }
     footer strong { color: rgba(255,255,255,0.7); }
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+    .footer-links a {
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: rgba(255,255,255,0.55);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .footer-links a:hover { color: rgba(255,255,255,0.85); }
+    .footer-links a:focus-visible {
+      outline: 3px solid var(--highlight);
+      outline-offset: 2px;
+    }
+
+    .form-privacy-notice {
+      font-size: 0.8rem;
+      color: var(--ink-light);
+      line-height: 1.5;
+      max-width: 36rem;
+    }
+    .form-privacy-notice a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .form-privacy-notice a:hover { color: var(--ink); }
+    .form-privacy-notice a:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    /* ── COOKIE BANNER ── */
+    body.cookie-banner-open {
+      padding-bottom: var(--cookie-banner-height, 7rem);
+    }
+    .cookie-banner {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 200;
+      background: var(--bg-alt);
+      border-top: 1px solid var(--rule);
+      box-shadow: 0 -4px 24px rgba(43, 38, 32, 0.08);
+    }
+    .cookie-banner[hidden] { display: none; }
+    .cookie-banner-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1.25rem 5%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .cookie-banner-title {
+      font-family: var(--serif);
+      font-weight: 600;
+      font-size: 1rem;
+      color: var(--ink);
+      margin-bottom: 0.35rem;
+    }
+    .cookie-banner-desc {
+      font-size: 0.875rem;
+      color: var(--ink-mid);
+      line-height: 1.55;
+      max-width: 42rem;
+    }
+    .cookie-banner-desc a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .cookie-banner-desc a:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 2px;
+    }
+    .cookie-banner-actions {
+      display: flex;
+      gap: 0.75rem;
+      flex-shrink: 0;
+    }
+    .cookie-btn {
+      font-family: var(--sans);
+      font-size: 0.875rem;
+      font-weight: 600;
+      padding: 0.65rem 1.25rem;
+      min-height: 44px;
+      border-radius: 8px;
+      cursor: pointer;
+      border: 1.5px solid transparent;
+      transition: background 0.2s, border-color 0.2s, color 0.2s;
+    }
+    .cookie-btn--reject {
+      background: transparent;
+      color: var(--ink-mid);
+      border-color: var(--rule);
+    }
+    .cookie-btn--reject:hover {
+      border-color: var(--ink-mid);
+      color: var(--ink);
+    }
+    .cookie-btn--accept {
+      background: var(--accent);
+      color: #fff;
+    }
+    .cookie-btn--accept:hover { filter: brightness(1.05); }
+    .cookie-btn:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 2px;
+    }
+    @media (max-width: 500px) {
+      .cookie-banner-inner {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .cookie-banner-actions {
+        flex-direction: column;
+      }
+      body.cookie-banner-open {
+        padding-bottom: var(--cookie-banner-height, 10rem);
+      }
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .cookie-banner {
+        animation: cookieSlideUp 0.35s ease forwards;
+      }
+    }
+    @keyframes cookieSlideUp {
+      from { transform: translateY(100%); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    body.legal-doc footer {
+      padding: 1.25rem 5%;
+      font-size: 0.75rem;
+    }
+    body.legal-doc .footer-inner {
+      gap: 0.5rem;
+    }
+    body.legal-doc .footer-logo {
+      width: 72px;
+      height: 72px;
+    }
+
+    /* ── LEGAL PAGE ── */
+    body.legal-doc nav .container {
+      justify-content: center;
+    }
+    .legal-page {
+      padding: 72px 0 32px;
+    }
+    .legal-back-wrap {
+      margin-bottom: 0.35rem;
+    }
+    .legal-back {
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .legal-back:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 2px;
+    }
+    .legal-page h1 {
+      font-family: var(--serif);
+      font-weight: 600;
+      font-size: clamp(1.5rem, 2.5vw, 2rem);
+      color: var(--ink);
+      margin-bottom: 0.15rem;
+      line-height: 1.15;
+    }
+    .legal-updated {
+      font-family: var(--mono);
+      font-size: 0.6875rem;
+      color: var(--ink-light);
+      margin-bottom: 0.4rem;
+    }
+    .legal-toc {
+      position: static;
+      margin-bottom: 0.65rem;
+      max-width: 720px;
+    }
+    .legal-toc ul {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 0.1rem 0.5rem;
+    }
+    .legal-toc a {
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      line-height: 1.35;
+    }
+    .legal-toc a:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 2px;
+    }
+    .legal-section {
+      padding: 0;
+      margin-bottom: 0.5rem;
+      max-width: 720px;
+    }
+    .legal-section:last-of-type {
+      margin-bottom: 0;
+    }
+    .legal-section h2 {
+      font-family: var(--serif);
+      font-size: 1.0625rem;
+      margin-bottom: 0.2rem;
+      line-height: 1.25;
+      scroll-margin-top: 68px;
+    }
+    .legal-section p,
+    .legal-section li {
+      font-size: 0.875rem;
+      color: var(--ink-mid);
+      line-height: 1.4;
+    }
+    .legal-section p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .legal-section li {
+      margin-bottom: 0.25rem;
+    }
+    .legal-section p:last-child,
+    .legal-section ul:last-child {
+      margin-bottom: 0;
+    }
+    .legal-section ul {
+      padding-left: 1rem;
+      margin-bottom: 0.25rem;
+    }
+    .legal-section li:last-child {
+      margin-bottom: 0;
+    }
+    .legal-section a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .legal-section a:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 2px;
+    }
+    .legal-placeholder {
+      background: var(--accent-soft);
+      border-left: 3px solid var(--accent);
+      padding: 0.1em 0.3em;
+      color: var(--ink);
+      font-weight: inherit;
+      border-radius: 0 2px 2px 0;
+    }
+    @media (max-width: 800px) {
+      .legal-page {
+        padding: 68px 0 28px;
+      }
+    }
+    @media (max-width: 768px) {
+      .legal-page {
+        padding: 64px 0 24px;
+      }
+    }
+    @media (max-width: 500px) {
+      .legal-page {
+        padding: 56px 0 20px;
+      }
+      .legal-page h1 {
+        font-size: 1.4rem;
+      }
+      .legal-section h2 {
+        font-size: 1rem;
+      }
+      .legal-section p,
+      .legal-section li {
+        font-size: 0.8125rem;
+      }
+      .legal-toc ul {
+        grid-template-columns: 1fr;
+        gap: 0.05rem;
+      }
+    }
 
     /* ── ANIMATIONS ── */
     @keyframes fadeUp {
@@ -655,6 +952,10 @@
         opacity: 1;
         transform: none;
         transition: none;
+      }
+
+      .cookie-banner {
+        animation: none;
       }
     }
 
